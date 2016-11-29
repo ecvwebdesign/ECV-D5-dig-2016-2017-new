@@ -1,0 +1,189 @@
+<html>
+
+<head>
+
+  <link rel="stylesheet" href="styles/main.css" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|PT+Serif:400,400i,700,700i|Vesper+Libre:400,500,700,900" rel="stylesheet">
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+
+  <script>
+  //scroll animation
+
+  $(document).ready(function() {
+    $('.js-scrollTo').on('click', function() { // Au clic sur un élément
+      var page = $(this).attr('href'); // Page cible
+      var speed = 450; // Durée de l'animation (en ms)
+      $('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
+      return false;
+    });
+  });
+  </script>
+
+  <script>
+  $(document).ready(function() {
+    // Test for placeholder support
+    $.support.placeholder = (function(){
+      var i = document.createElement('input');
+      return 'placeholder' in i;
+    })();
+
+    // Hide labels by default if placeholders are supported
+    if($.support.placeholder) {
+      $('.form-label').each(function(){
+        $(this).addClass('js-hide-label');
+      });
+
+      // Code for adding/removing classes here
+      $('.form-group').find('input, textarea').on('keyup blur focus', function(e){
+
+        // Cache our selectors
+        var $this = $(this),
+        $parent = $this.parent().find("label");
+
+        if (e.type == 'keyup') {
+          if( $this.val() == '' ) {
+            $parent.addClass('js-hide-label');
+          } else {
+            $parent.removeClass('js-hide-label');
+          }
+        }
+        else if (e.type == 'blur') {
+          if( $this.val() == '' ) {
+            $parent.addClass('js-hide-label');
+          }
+          else {
+            $parent.removeClass('js-hide-label').addClass('js-unhighlight-label');
+          }
+        }
+        else if (e.type == 'focus') {
+          if( $this.val() !== '' ) {
+            $parent.removeClass('js-unhighlight-label');
+          }
+        }
+      });
+    }
+  });
+  </script>
+
+  <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script>
+  $(function(){
+    $('a').each(function(){
+      if ($(this).prop('href') == window.location.href) {
+        $(this).addClass('active'); $(this).parents('li').addClass('active');
+      }
+    });
+  });
+  </script>
+
+
+</head>
+
+<body>
+
+
+  <header class="header">
+    <ul class="navigation">
+      <li><a class="js-scrollTo" href="#home">Intro</a></li>
+      <li><a class="js-scrollTo" href="#skills">Univers</a></li>
+      <li><a class="js-scrollTo" href="#objectifs">Objectifs</a></li>
+      <li><a class="js-scrollTo" href="#contact">Contact</a></li>
+    </ul>
+
+  </header>
+
+
+  <div class="logo"><img src="styles/images/logo.svg"></div>
+  <div class="wrapper">
+
+    <section class="hero" id="home">
+
+      <section id="scroll" class="js-scrollTo">
+        <a class="js-scrollTo" href="#skills"><span></span></a>
+      </section>
+      <h1>Alimenté par
+        <br> le numérique</br>
+      </h1>
+
+    </section>
+
+
+    <article class="skills" id="skills">
+      <h1>Mon univers</h1>
+
+      <div class="line"></div>
+
+      <p>Max, ou plutôt Nuggets, c’est notre sniper visuel. Il percute dès l’énoncé d’un brief, et dans son esprit commence à s’articuler tout l’univers graphique qu’il souhaite donner à un projet. Sûr de sa force, il sait nous réunir autour d’une idée dans le but de la développer main dans la main, avec pour objectif de traduire visuellement l’expérience utilisateur que nous proposons à chaque projet. Qu’il s’agisse de la Côte Atlantique ou du web, Nuggets ne se contente pas de surfer sur les tendances. Chaque sortie en mer lui a permis petit à petit de développer sa propre façon d’envisager le design. C’est aujourd’hui avec fierté que nos productions sont marqués au fer rouge par son approche graphique.
+      </p>
+
+      <ul class="flex-container">
+        <li class="flex-item" id="WD"><img src="styles/images/design.svg" /></li>
+        <li class="flex-item" id="M"><img src="styles/images/motion.svg" /></li>
+        <li class="flex-item" id="I"><img src="styles/images/illustration.svg" /></li>
+      </ul>
+
+    </article>
+
+    <article class="objectifs" id="objectifs">
+      <h1> Objectifs </h1>
+      <div class="line"></div>
+      <ul class="flex-container">
+        <li class="flex-item"><img src="styles/images/travel.svg">Voyager
+          <h2>ozehfozhfozehfo zeifh skf sehfilhflisdufhs idufh ushdfi <h2>
+          </li>
+          <li class="flex-item"><img src="styles/images/surf.svg">Surf
+            <h2>ozehfozhfozehfo zeifh skf sehfilhflisdufhs idufh ushdfi <h2>
+            </li>
+            <li class="flex-item"><img src="styles/images/team.svg">Amis
+              <h2>ozehfozhfozehfo zeifh skf sehfilhflisdufhs idufh ushdfi <h2>
+              </li>
+              <li class="flex-item"><img src="styles/images/creative.svg">Créativité
+                <h2>ozehfozhfozehfo zeifh skf sehfilhflisdufhs idufh ushdfi <h2>
+                </li>
+              </ul>
+            </article>
+
+            <div class="container">
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center" id="contact">
+
+                  <h2>Contact</h2>
+
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xs-offset-3">
+                  <form id="contact-form" class="form" action="https://getsimpleform.com/messages?form_api_token=ccbe70b0a80c9bb63d00febb969f8bb2" method="POST" role="form">
+                    <input type='hidden' name='redirect_to' value="https://www.behance.net/MaximeNugues" />            
+                      <div class="form-group">
+                        <label class="form-label" for="name">Ton nom</label>
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Ton nom" tabindex="1" required>
+                      </div>
+                      <div class="form-group">
+                        <label class="form-label" for="email">Ton mail</label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Ton mail" tabindex="2" required>
+                      </div>
+                      <div class="form-group">
+                        <label class="form-label" for="subject">Sujet</label>
+                        <input type="text" class="form-control" id="subject" name="subject" placeholder="Sujet" tabindex="3">
+                      </div>
+                      <div class="form-group">
+                        <label class="form-label" for="message">Message</label>
+                        <textarea rows="5" cols="50" name="message" class="form-control" id="message" placeholder="Message..." tabindex="4" required></textarea>
+                      </div>
+                      <div class="text-center">
+                        <button type="submit" class="btn btn-start-order">Envoyer</button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </body>
+
+
+
+        </html>
