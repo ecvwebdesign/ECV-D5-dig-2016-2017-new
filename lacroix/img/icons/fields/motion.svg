@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="199px" height="199px" viewBox="0 0 199 199" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #5BC3EB;">
+    <!-- Generator: Sketch 41.1 (35376) - http://www.bohemiancoding.com/sketch -->
+    <title>motion</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M145.636364,44 L43.3636364,44 C37.0852273,44 32,49.0550926 32,55.2962963 L32,123.074074 C32,129.315278 37.0852273,134.37037 43.3636364,134.37037 L71.7727273,134.37037 L71.7727273,145.666667 L117.227273,145.666667 L117.227273,134.37037 L145.636364,134.37037 C151.914773,134.37037 156.943182,129.315278 156.943182,123.074074 L157,55.2962963 C157,49.0550926 151.914773,44 145.636364,44 Z M145.636364,123.074074 L43.3636364,123.074074 L43.3636364,55.2962963 L145.636364,55.2962963 L145.636364,123.074074 Z M117.227273,89.1851852 L77.4545455,111.777778 L77.4545455,66.5925926 L117.227273,89.1851852 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="motion">
+            <g id="icon-wireframe" transform="translate(5.000000, 5.000000)">
+                <path d="M95,190 C147.467051,190 190,147.467051 190,95 C190,42.5329488 147.467051,0 95,0 C42.5329488,0 0,42.5329488 0,95 C0,147.467051 42.5329488,190 95,190 Z" id="Oval-Copy" stroke="#FFFFFF"></path>
+                <g id="Page-1">
+                    <use stroke="#979797" xlink:href="#path-1"></use>
+                    <use stroke="#FFFFFF" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
