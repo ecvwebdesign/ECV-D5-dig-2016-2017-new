@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="199px" height="199px" viewBox="0 0 199 199" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #5BC3EB;">
+    <!-- Generator: Sketch 41.1 (35376) - http://www.bohemiancoding.com/sketch -->
+    <title>design</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="design">
+            <g id="icon-graphicDesign-outline" transform="translate(5.000000, 5.000000)">
+                <circle id="Oval-Copy" stroke="#FFFFFF" fill="#5BC3EB" cx="95" cy="95" r="95"></circle>
+                <path d="M95,163.4 C132.776277,163.4 163.4,132.776277 163.4,95 C163.4,57.2237231 132.776277,26.6 95,26.6 C57.2237231,26.6 26.6,57.2237231 26.6,95" id="usb-cable" stroke="#FFFFFF" fill="#5BC3EB" transform="translate(95.000000, 95.000000) rotate(-90.000000) translate(-95.000000, -95.000000) "></path>
+                <g id="pen+ruler" transform="translate(53.960000, 53.960000)" stroke="#FFFFFF">
+                    <g id="ruler" transform="translate(41.252132, 41.393553) rotate(45.000000) translate(-41.252132, -41.393553) translate(33.252132, -8.106447)">
+                        <g id="Group-27" transform="translate(0.000000, -0.000000)">
+                            <rect id="Rectangle-11-Copy" fill="#5BC3EB" x="4.26325641e-14" y="-1.27897692e-13" width="15.1985863" height="98.790811"></rect>
+                            <path d="M1.63424829e-13,2.5 L8.86945999,2.5" id="Path-10"></path>
+                            <path d="M-7.81597009e-14,33.5 L8.86945999,33.5" id="Path-10"></path>
+                            <g id="Group-26" transform="translate(-0.000000, 5.066195)" stroke-width="0.76">
+                                <path d="M0,0.506619544 L5.06619544,0.506619544" id="Path-10"></path>
+                                <path d="M0,3.54633681 L5.06619544,3.54633681" id="Path-10"></path>
+                                <path d="M0,7.09267361 L5.06619544,7.09267361" id="Path-10"></path>
+                                <path d="M-7.10542736e-15,10.1323909 L5.06619544,10.1323909" id="Path-10"></path>
+                                <path d="M0,13.1721081 L6.58605407,13.1721081" id="Path-10"></path>
+                                <path d="M3.55271368e-14,16.2118254 L5.06619544,16.2118254" id="Path-10"></path>
+                                <path d="M3.55271368e-14,19.2515427 L5.06619544,19.2515427" id="Path-10"></path>
+                                <path d="M-4.26325641e-14,22.7978795 L5.06619544,22.7978795" id="Path-10"></path>
+                                <path d="M-4.26325641e-14,25.8375967 L5.06619544,25.8375967" id="Path-10"></path>
+                            </g>
+                            <g id="Group-26-Copy" transform="translate(-0.000000, 36.476607)" stroke-width="0.76">
+                                <path d="M0,0.506619544 L5.06619544,0.506619544" id="Path-10"></path>
+                                <path d="M-4.26325641e-14,3.54633681 L5.06619544,3.54633681" id="Path-10"></path>
+                                <path d="M0,7.09267361 L5.06619544,7.09267361" id="Path-10"></path>
+                                <path d="M0,10.1323909 L5.06619544,10.1323909" id="Path-10"></path>
+                                <path d="M0,13.1721081 L6.58605407,13.1721081" id="Path-10"></path>
+                                <path d="M0,16.2118254 L5.06619544,16.2118254" id="Path-10"></path>
+                                <path d="M0,19.2515427 L5.06619544,19.2515427" id="Path-10"></path>
+                                <path d="M0,22.7978795 L5.06619544,22.7978795" id="Path-10"></path>
+                                <path d="M-7.10542736e-15,25.8375967 L5.06619544,25.8375967" id="Path-10"></path>
+                            </g>
+                            <g id="Group-26-Copy-2" transform="translate(-0.000000, 67.380399)" stroke-width="0.76">
+                                <path d="M0,0.506619544 L5.06619544,0.506619544" id="Path-10"></path>
+                                <path d="M-1.42108547e-14,3.54633681 L5.06619544,3.54633681" id="Path-10"></path>
+                                <path d="M-7.10542736e-15,7.09267361 L5.06619544,7.09267361" id="Path-10"></path>
+                                <path d="M-7.10542736e-15,10.1323909 L5.06619544,10.1323909" id="Path-10"></path>
+                                <path d="M-7.10542736e-15,13.1721081 L6.58605407,13.1721081" id="Path-10"></path>
+                                <path d="M-7.10542736e-15,16.2118254 L5.06619544,16.2118254" id="Path-10"></path>
+                                <path d="M-7.10542736e-15,19.2515427 L5.06619544,19.2515427" id="Path-10"></path>
+                                <path d="M-7.10542736e-15,22.7978795 L5.06619544,22.7978795" id="Path-10"></path>
+                                <path d="M-7.10542736e-15,25.8375967 L5.06619544,25.8375967" id="Path-10"></path>
+                            </g>
+                            <path d="M-8.52651283e-14,64.5 L8.86945999,64.5" id="Path-10"></path>
+                            <path d="M-4.26325641e-14,95.5 L8.86945999,95.5" id="Path-10"></path>
+                        </g>
+                    </g>
+                    <g id="pen" transform="translate(41.421838, 40.799584) rotate(-45.000000) translate(-41.421838, -40.799584) translate(36.421838, -8.700416)" fill="#5BC3EB">
+                        <rect id="Rectangle-11" x="-1.25233157e-13" y="-1.56319402e-13" width="9.11915179" height="86.1253224"></rect>
+                        <polygon id="Triangle-3" transform="translate(4.559576, 93.724616) rotate(180.000000) translate(-4.559576, -93.724616) " points="4.55957589 88.6584201 9.11915179 98.790811 -3.55271368e-14 98.790811"></polygon>
+                    </g>
+                </g>
+                <g id="mouse" transform="translate(144.400000, 70.680000)">
+                    <rect id="Rectangle-12" stroke="#FFFFFF" fill="#5BC3EB" x="0" y="0" width="30.4" height="49.4" rx="15.2"></rect>
+                    <circle id="Oval-11" fill="#FFFFFF" cx="15.2" cy="12.92" r="3.04"></circle>
+                </g>
+                <g id="usb" transform="translate(89.680000, 158.080000)" stroke="#FFFFFF" fill="#5BC3EB">
+                    <rect id="Rectangle-13" x="10.1962143" y="1.9260119" width="6.12071429" height="6.02797619"></rect>
+                    <rect id="Rectangle-13" x="0.403071429" y="0.720416667" width="12.8535" height="8.43916667"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
