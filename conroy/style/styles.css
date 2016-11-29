@@ -1,0 +1,265 @@
+
+/*** titles ***/
+
+h2 {
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight:lighter;
+  color: #1A173D;
+  top: 430px;
+  left: 0;
+  width: 100%;
+}
+
+
+h3 {
+  font-size: 34px;
+  line-height: 100px;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 4px;
+  color: #A3D9FF;
+
+}
+
+h4 {
+  font-size: 15px;
+  font-family: 'Raleway', sans-serif;
+  color: #A3D9FF;
+  letter-spacing: 1px;
+
+}
+
+h5 {
+  font-size: 15px;
+  font-family: 'Raleway', sans-serif;
+  color: #1A173D;
+  letter-spacing: 1px;
+
+}
+
+/*** body ***/
+
+body{
+  color: #1A173D;
+  font-family: 'Raleway', sans-serif;
+
+
+}
+
+p{
+  margin-right: 200px;
+  margin-left: 200px;
+  text-align: justify;
+
+}
+
+
+/***images***/
+
+.grow img {
+  height: 300px;
+  width: 300px;
+
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+.grow img:hover {
+  width: 400px;
+  height: 400px;
+}
+
+
+
+/*** header ***/
+
+header {
+  width: 100%;
+  height:100px ;
+  background-color: #1A173D;
+  text-align: center;
+
+}
+#top-menu {
+  display: flex;
+  justify-content: center;
+  list-style-type: none
+}
+
+/*** header image***/
+
+
+nav a {
+  display: inline-block;
+  font-family: 'Raleway', sans-serif;
+  font-weight:lighter;
+  color: #A3D9FF;
+  letter-spacing: 3px;
+  font-size: 14px;
+  margin: 35px;
+  text-align: center;
+}
+
+/***** BG-IMG *****/
+
+.bg-img {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('2.jpg');
+  background-repeat: no-repeat;
+  background-position: cover;
+}
+
+h1 {
+  font-size: 100px;
+  line-height: 40px;
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+  opacity: 0.5;
+  color: #fff;
+  width: 100%;
+}
+
+/*** PREZ ***/
+
+.text-presentation {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+
+
+}
+
+/*** SKILLS ***/
+
+.skills-area {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #1A173D;
+}
+
+.skills-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;;
+  align-items: center;
+  width: 900px;
+}
+.skills-img div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.skills-img img {
+  width: 150px;
+  height: 150px;
+  background-color: none;
+}
+
+/*** FIELDS ***/
+
+.fields {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+}
+
+.fields-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;;
+  align-items: center;
+  width: 900px;
+}
+.fields-img div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.fields-img img {
+  width: 150px;
+  height: 150px;
+  background-color: white;
+}
+
+/*** FOOTER ***/
+
+footer {
+  height: 100vh;
+  background-color: #1A173D;
+  display: flex;
+  align-items: center;
+
+
+}
+
+/*** Le Formulaire ***/
+
+
+#contact-area {
+	width: 600px;
+	margin-top: 25px;
+  color: #A3D9FF;
+
+
+}
+
+#contact-area input, #contact-area textarea {
+	padding: 5px;
+	width: 471px;
+	font-size: 1.4em;
+	margin: 0px 0px 10px 0px;
+	border: 2px solid #ccc;
+  color: #A3D9FF;
+  font-family: 'Open sans', sans-serif;
+}
+
+#contact-area textarea {
+	height: 90px;
+  font-family: 'Open sans', sans-serif;
+
+}
+
+#contact-area textarea:focus, #contact-area input:focus {
+	border: 2px solid #900;
+  font-family: 'Open sans', sans-serif;
+}
+
+#contact-area input.submit-button {
+	width: 100px;
+	float: right;
+  font-family: 'Open sans', sans-serif;
+}
+
+label {
+	float: left;
+	text-align: right;
+	margin-right: 15px;
+	width: 100px;
+	padding-top: 5px;
+	font-size: 1.4em;
+  font-family: 'Open sans', sans-serif;
+
+}
