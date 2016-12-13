@@ -117,7 +117,7 @@ nav a {
   align-items: center;
   background-image: url('2.jpg');
   background-repeat: no-repeat;
-  background-position: cover;
+  background-size: cover;
 }
 
 h1 {
@@ -220,10 +220,15 @@ footer {
 /*** Le Formulaire ***/
 
 
+
+
 #contact-area {
 	width: 600px;
 	margin-top: 25px;
+  margin-left: 310px;
   color: #A3D9FF;
+
+
 
 
 }
