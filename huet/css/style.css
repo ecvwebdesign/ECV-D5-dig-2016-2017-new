@@ -277,7 +277,7 @@ h5 {
 }
 
 .box-primary-nav-trigger {
-    width: 100px;
+    width: 135px;
     padding-left: 1em;
     background-color: transparent;
     height: 30px;
@@ -332,7 +332,7 @@ h5 {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     margin: .2em 0;
-    text-transform: capitalize;
+
 }
 
 .box-primary-nav a {
@@ -899,4 +899,10 @@ label {
         font-size: 30px;
         line-height: 30px;
     }
+}
+
+
+#back {
+  font-size: 20px;
+  color: blue;
 }
