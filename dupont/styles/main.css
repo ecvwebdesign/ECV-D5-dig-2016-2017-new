@@ -6,6 +6,8 @@ body {
 
 }
 
+
+
 nav ul {
   list-style-type: none;
   display: flex;
@@ -26,7 +28,7 @@ nav a {
 
 section {
   //border : 1px solid red;
-  min-height: 30vh;
+  //min-height: 30vh;
 }
 
 section .content {
@@ -43,6 +45,7 @@ background-size: cover;
 height:62vh;
 position:relative;
 padding-top: 5px;
+z-index:10;
 }
 
 #hero::after {
@@ -55,6 +58,12 @@ padding-top: 5px;
   //background-image: linear-gradient(to top, blue, #fff);
   background: blue;
   opacity: .4;
+  z-index:9;
+}
+
+#hero h1{
+  z-index:1;
+  //color:white;
 }
 
 #leader{
@@ -163,6 +172,38 @@ h1 {
   margin-bottom: 10px;
   margin-left: 20px;
 }
+
+.icon{
+  max-width: 40px;
+
+}
+
+.icons{
+  list-style: none;
+}
+
+#social{
+  padding-top:30px;
+  padding-bottom: 20px;
+  margin-bottom: 0px;
+  margin-top:50px;
+  background:#ffd400;
+  min-height: 10vh;
+}
+
+#message h2 {
+  text-align: center;
+  color:white;
+  margin-top:130px;
+  padding:100px;
+  background:#ef1a6f;
+}
+
+#retour p {
+  text-align: center;
+
+}
+
 
 /*
 header {
