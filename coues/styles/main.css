@@ -71,7 +71,10 @@ aside h2 {
   font-size: 25px;
   color: #5e5d5e;
    margin: 40px;
+   padding-bottom: 40px;
 }
+
+
 
 h3 {
   font-family: 'Roboto Slab', sans-serif;
@@ -83,23 +86,24 @@ h3 {
 p {
   font-family: 'Roboto', sans-serif;
   color: #5e5d5e;
-  margin: 20px;
-
 }
 
 img {
   width: 100px;
   height: 100px;
-  background-color: grey;
 }
 
 section {
-  height: 50vh;
+  height: 80vh;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+.presentation p {
+  max-width: 640px;
 }
 
 .presentation,
