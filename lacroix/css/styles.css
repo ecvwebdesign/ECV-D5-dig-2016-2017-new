@@ -229,7 +229,7 @@ nav ul li a {
     z-index: 2;
     border-radius: 10px;
     max-width: 900px;
-    height: 85%;
+    max-height: 900px;
     background-color: white;
     display: flex;
     justify-content: center;
