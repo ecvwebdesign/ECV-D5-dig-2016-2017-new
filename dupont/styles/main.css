@@ -28,7 +28,7 @@ nav a {
 
 section {
   //border : 1px solid red;
-  
+
 }
 
 section .content {
@@ -42,10 +42,13 @@ section .content {
 #hero {
 background:url(../images/travail4.jpg);
 background-size: cover;
-height:62vh;
+min-height:62vh;
 position:relative;
 padding-top: 5px;
 z-index:10;
+display: flex;
+flex-direction: column;
+justify-content: center;
 }
 
 #hero::after {
@@ -62,13 +65,18 @@ z-index:10;
 }
 
 #hero h1{
-  z-index:1;
-  //color:white;
+  position:relative;
+  text-align:center;
+  margin:0 auto;
+  z-index:15;
+  color:white;
+  font-size:70px;
 }
 
 #leader{
   background:#ffd400;
   padding-top: 5px;
+  padding-bottom:30px;
   }
 
 .skills-item{
@@ -166,11 +174,14 @@ button, input, select, textarea {
 h1 {
   font-family: 'Archivo Black', sans-serif;
   font-family: 'Dosis', sans-serif;
-  font-family: 'Petit Formal Script', cursive;
+  font-family: 'Montserrat', sans-serif;
   font-size:25px;
   margin-top :30px;
   margin-bottom: 10px;
-  margin-left: 20px;
+  //margin-left: 50px;
+  text-align:center;
+  padding-bottom:30px;
+
 }
 
 .icon{
