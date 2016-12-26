@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="199px" height="199px" viewBox="0 0 199 199" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #5BC3EB;">
-    <!-- Generator: Sketch 41.1 (35376) - http://www.bohemiancoding.com/sketch -->
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
     <title>motion</title>
     <desc>Created with Sketch.</desc>
     <defs>
@@ -9,10 +9,10 @@
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="motion">
             <g id="icon-wireframe" transform="translate(5.000000, 5.000000)">
-                <path d="M95,190 C147.467051,190 190,147.467051 190,95 C190,42.5329488 147.467051,0 95,0 C42.5329488,0 0,42.5329488 0,95 C0,147.467051 42.5329488,190 95,190 Z" id="Oval-Copy" stroke="#FFFFFF"></path>
+                <path d="M95,190 C147.467051,190 190,147.467051 190,95 C190,42.5329488 147.467051,0 95,0 C42.5329488,0 0,42.5329488 0,95 C0,147.467051 42.5329488,190 95,190 Z" id="Oval-Copy" stroke="#FFFFFF" stroke-width="2"></path>
                 <g id="Page-1">
-                    <use stroke="#979797" xlink:href="#path-1"></use>
-                    <use stroke="#FFFFFF" xlink:href="#path-1"></use>
+                    <use stroke="#979797" stroke-width="1" xlink:href="#path-1"></use>
+                    <use stroke="#FFFFFF" stroke-width="2" xlink:href="#path-1"></use>
                 </g>
             </g>
         </g>
