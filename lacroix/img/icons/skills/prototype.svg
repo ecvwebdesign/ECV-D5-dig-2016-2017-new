@@ -1,17 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="199px" height="199px" viewBox="0 0 199 199" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #5BC3EB;">
-    <!-- Generator: Sketch 41.1 (35376) - http://www.bohemiancoding.com/sketch -->
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
     <title>prototype</title>
     <desc>Created with Sketch.</desc>
-    <defs></defs>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="57.9074111" height="48.9940766"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="57.9074111" height="48.9940766" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="prototype">
-            <circle id="Oval-Copy" stroke="#FFFFFF" fill="#5BC3EB" cx="100" cy="100" r="95"></circle>
-            <path d="M131.428571,31.0627273 L68.5714286,31 C61.6257143,31 56,36.6140909 56,43.5454545 L56,156.454545 C56,163.385906 61.6257143,169 68.5714286,169 L131.428571,169 C138.374286,169 144,163.385906 144,156.454545 L144,43.5454545 C144,36.6140909 138.374286,31.0627273 131.428571,31.0627273 Z M135.300207,145 L64.699793,145 L64.699793,44 L135.300207,44 L135.300207,145 Z M99.5900621,163.996444 C102.910631,163.996444 105.602484,161.310153 105.602484,157.996444 C105.602484,154.682736 102.910631,151.996444 99.5900621,151.996444 C96.2694929,151.996444 93.5776398,154.682736 93.5776398,157.996444 C93.5776398,161.310153 96.2694929,163.996444 99.5900621,163.996444 Z" id="Page-1" stroke="#FFFFFF"></path>
+            <circle id="Oval-Copy" stroke="#FFFFFF" stroke-width="2" fill="#5BC3EB" cx="100" cy="100" r="95"></circle>
+            <path d="M131.428571,31.0627273 L68.5714286,31 C61.6257143,31 56,36.6140909 56,43.5454545 L56,156.454545 C56,163.385906 61.6257143,169 68.5714286,169 L131.428571,169 C138.374286,169 144,163.385906 144,156.454545 L144,43.5454545 C144,36.6140909 138.374286,31.0627273 131.428571,31.0627273 Z M135.300207,145 L64.699793,145 L64.699793,44 L135.300207,44 L135.300207,145 Z M99.5900621,163.996444 C102.910631,163.996444 105.602484,161.310153 105.602484,157.996444 C105.602484,154.682736 102.910631,151.996444 99.5900621,151.996444 C96.2694929,151.996444 93.5776398,154.682736 93.5776398,157.996444 C93.5776398,161.310153 96.2694929,163.996444 99.5900621,163.996444 Z" id="Page-1" stroke="#FFFFFF" stroke-width="2"></path>
             <g id="img+text-outline-slide" transform="translate(65.000000, 44.000000)">
                 <g id="Group-6-Copy" transform="translate(5.680000, 27.400000)">
                     <g id="Group-2">
-                        <rect id="Rectangle-3" stroke="#FFFFFF" x="0" y="0" width="57.9074111" height="48.9940766"></rect>
+                        <use id="Rectangle-3" stroke="#FFFFFF" mask="url(#mask-2)" stroke-width="4" xlink:href="#path-1"></use>
                         <g id="Img" transform="translate(12.453706, 12.534884)" fill="#FFFFFF">
                             <path d="M21.9726206,15.44542 L13.7381725,3.29894046 L0,23.5638604 L21.9810761,23.5638604 L32.7753545,23.5638604 L24.6305808,11.512629 L21.9726206,15.44542 Z" id="Combined-Shape"></path>
                             <ellipse id="Oval-2" cx="24.6632907" cy="3.29894046" rx="3.20557359" ry="3.29894046"></ellipse>
@@ -22,7 +27,7 @@
                         <rect id="Rectangle-5-Copy" x="0" y="5.08911468" width="39.6243985" height="2.4475863"></rect>
                     </g>
                 </g>
-                <rect id="Rectangle-2" stroke="#FFFFFF" x="0" y="8" width="70" height="93"></rect>
+                <rect id="Rectangle-2" stroke="#FFFFFF" stroke-width="2" x="0" y="8" width="70" height="93"></rect>
                 <rect id="Rectangle-2" stroke="#FFFFFF" x="0" y="0" width="70" height="101"></rect>
                 <rect id="Rectangle-4" stroke="#FFFFFF" x="6.68" y="15.24" width="21.1444586" height="3.25111111"></rect>
             </g>
