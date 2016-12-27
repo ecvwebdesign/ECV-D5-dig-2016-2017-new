@@ -45,6 +45,19 @@ nav ul li a {
   color: #1D1E3E;
 }
 
+/******* START OF navigation-page **********/
+#navigation-page {
+  position: absolute;
+  left: 100px;
+  opacity: .5;
+  top: 18px;
+}
+
+#navigation-page li img{
+  height: 30px;
+}
+/******* END OF navigation-page **********/
+
 .cool-link {
     display: inline-block;
     color: #50ADAD;
