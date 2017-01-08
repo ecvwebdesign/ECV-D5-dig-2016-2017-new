@@ -3,6 +3,7 @@
 body{
   margin: inherit;
   width: 100%;
+  background-color: #f7f7f7;
 
 }
 
@@ -82,7 +83,7 @@ header{
   font-weight: 500;
   transform: translateY(-50%);
   padding-left: 5%;
-  display: block;
+  display: flex;
   text-align: left;
   line-height: 90%;
 }
@@ -96,7 +97,7 @@ header{
   font-weight: 500;
   transform: translateY(-50%);
   padding-left: 5%;
-  display: block;
+  display: flex;
   text-align: left;
   line-height: 90%;
 }
@@ -301,8 +302,8 @@ header{
 
 
 .flex-container {
-  padding-left: 15vh;
-  padding-right: 15vh;
+  padding-left: 0vh;
+  padding-right: 0vh;
   margin: 0;
   list-style: none;
   height: 100vh;
@@ -400,7 +401,7 @@ button:focus {
   font-size: 34px;
   color: #303030;
   text-align: center;
-  padding-top: 15vh;
+  padding-top: 10%;
 
 }
 
@@ -411,14 +412,14 @@ button:focus {
   font-size: 18px;
   padding-left: 20%;
   padding-right: 20%;
-  margin-bottom: -20%;
+
 
 }
 
 
 
 .skills {
-  background-color: #ffffff;
+  background-color: #f7f7f7;
   width: 100%;
   height: 100vh;
 
