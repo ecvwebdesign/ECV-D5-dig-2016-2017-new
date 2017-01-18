@@ -24,6 +24,7 @@ nav a {
   background: #ffd400;
   text-decoration: none;
   color:blue;
+  font-family: 'Montserrat', sans-serif;
 }
 
 section {
@@ -213,6 +214,24 @@ h1 {
 #retour p {
   text-align: center;
 
+}
+
+#navigation-page {
+  position: absolute;
+  left: 100px;
+  opacity: .5;
+  top: 18px;
+  z-index:33;
+  padding:0;
+  margin:0;
+
+
+}
+#navigation-page li img{
+  height: 30px;
+  display:list-item;
+  padding:0;
+  margin:0;
 }
 
 
