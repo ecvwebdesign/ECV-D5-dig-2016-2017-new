@@ -2,11 +2,7 @@ body{
   margin: 0;
   min-width: 550px;      /* 2x LC width + RC width */
   font-family: 'Open Sans', Helvetica,serif;
-<<<<<<< HEAD
   background-color: white;
-=======
-  background-color: #EAEAEA;
->>>>>>> master
 }
 /*********** HEADER ***********/
 header {
@@ -20,7 +16,7 @@ header {
   }
 
 
-<<<<<<< HEAD
+
   #navigation-page {
     position: absolute;
     color: white;
@@ -35,9 +31,6 @@ header {
     text-align: -webkit-match-parent;
   }
 
-
-=======
->>>>>>> master
 nav {
   max-width: 50rem;
   /*padding-top: 16px;*/
@@ -306,13 +299,8 @@ nav ul li a {
 .skills-area h3 {
   text-align: center;
   color: white;
-<<<<<<< HEAD
   font-weight: 400;
   text-transform: uppercase;
-=======
-  font-weight: 100;
-  opacity: .7;
->>>>>>> master
   margin-top: 0;
 }
 .skills-area img {
@@ -368,11 +356,7 @@ nav ul li a {
   text-align: center;
   text-transform: uppercase;
   color: white;
-<<<<<<< HEAD
   font-weight: 400;
-=======
-  font-weight: 100;
->>>>>>> master
   font-size: 20px;
   margin-top: 0;
 }
@@ -399,11 +383,7 @@ nav ul li a {
 .contact h2 {
   z-index: 2;
   font-size: 64px;
-<<<<<<< HEAD
   color: black;
-=======
-  color: #fff;
->>>>>>> master
   padding-top: 100px;
   text-align: center;
   margin: 0;
@@ -414,11 +394,7 @@ nav ul li a {
 
 #page-wrap {
 	width: 660px;
-<<<<<<< HEAD
 	background: white;
-=======
-	background: #EAEAEA;
->>>>>>> master
 	padding: 20px 50px 20px 50px;
 	margin: 20px auto;
 	min-height: 500px;
