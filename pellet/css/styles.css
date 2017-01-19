@@ -2,42 +2,19 @@ body{
   margin: 0;
   min-width: 550px;      /* 2x LC width + RC width */
   font-family: 'Open Sans', Helvetica,serif;
-<<<<<<< HEAD
-  background-color: white;
-=======
-  background-color: #EAEAEA;
->>>>>>> master
+
 }
 /*********** HEADER ***********/
 header {
   width: 100%;
   height:65px ;
-  background-color: black;
+  background-color: #fff;
   position: fixed;
   z-index: 3;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-
   }
 
 
-<<<<<<< HEAD
-  #navigation-page {
-    position: absolute;
-    color: white;
-    left: 100px;
-    opacity: .8;
-    top: 18px;
-  }
-  #navigation-page li img{
-    height: 30px;
-    color: white;
-    display:list-item;
-    text-align: -webkit-match-parent;
-  }
-
-
-=======
->>>>>>> master
 nav {
   max-width: 50rem;
   /*padding-top: 16px;*/
@@ -45,7 +22,6 @@ nav {
   margin: auto;
   display: flex;
   align-items: center;
-
 }
 
 nav ul {
@@ -56,7 +32,6 @@ nav ul {
   display: flex;
   justify-content: space-between;
   list-style: none;
-  text-transform: uppercase;
 }
 nav ul li {
 
@@ -64,10 +39,10 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 500;
-  color: white;
+  color: #333E81;
 }
 
 
@@ -76,7 +51,7 @@ nav ul li a {
 .bg-img {
   width: 100%;
   height: 100vh;
-  background: url(../css/work.jpg);
+  background: url(../img/pres.JPG);
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
@@ -93,7 +68,7 @@ nav ul li a {
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: #c84c1e;
+  background-image: linear-gradient(to top, #333E81, #fff);
   opacity: .8;
 }
 
@@ -110,7 +85,7 @@ nav ul li a {
 
 .bg-img h1,
 .bg-img p {
-  color: white;
+  color: #333E81;
 }
 
 .bg-img h1 {
@@ -119,12 +94,11 @@ nav ul li a {
 }
 
 .bg-img p {
-  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 500;
-  color: white;
+  color: #333E81;
   margin: 0;
-  opacity: 0.8;
+  opacity: 0.5;
 }
 
 @-webkit-keyframes ani-mouse {
@@ -184,7 +158,7 @@ nav ul li a {
 .scroll-btn {
   z-index: 2;
   margin-top: 25px;
-  opacity: .3;
+  opacity: .5;
 }
 
 .scroll-btn .mouse {
@@ -196,7 +170,7 @@ nav ul li a {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	border: 3px solid black;
+	border: 3px solid #333E81;
 	border-radius: 23px;
 }
 .scroll-btn .mouse > * {
@@ -207,7 +181,7 @@ nav ul li a {
 	width: 8px;
 	height: 8px;
 	margin: -4px 0 0 -4px;
-	background: black;
+	background: #333E81;
 	border-radius: 50%;
 	-webkit-animation: ani-mouse 3.5s linear infinite;
 	-moz-animation: ani-mouse 3.5s linear infinite;
@@ -222,67 +196,43 @@ nav ul li a {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction:row;
+  flex-direction:column;
   position: relative;
-}
-
-.presentation-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .presentation h2 {
   z-index: 2;
   font-size: 64px;
-  color: #fff;
-  margin: 0;
-  /*padding-top: 100px;*/
-  /*text-align: center;*/
-  width: 425px;
-  font-family: 'Oswald', sans-serif;
-
+  color: #333E81;
+  padding-top: 100px;
+  text-align: center;
 }
 
 .text-presentation {
-	height: 450px;
+	height: 390px;
 	width: 100%;
 	display: flex;
-  flex-direction: column;;
-  /*justify-content:space-between;*/
-  /*width: 900px;*/
+    flex-direction: row;
+    justify-content:space-between;
+    width: 900px;
 }
 
 .text-presentation p {
 	width: 425px;
-  font-family: 'Raleway', sans-serif;
 }
 
-#moi{
-  display: inline-block;
-  margin-right: 50px;
-  /*position: absolute;*/
-}
+
 /*********** SKILLS ***********/
-
-
 .skills-area h2 {
   z-index: 2;
   font-size: 64px;
   color: #fff;
   padding-top: 100px;
   text-align: center;
-  font-family: 'Oswald', sans-serif;
-  text-transform: uppercase;
 }
 
 .skills-area {
   height: 100vh;
-  /*background-color:#B7B7B7;*/
-  background: url(../css/texture.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  box-shadow: 0 3px 10px rgba(0,0,0,0.16), 0 3px 10px rgba(0,0,0,0.23);
 }
 
 .skills-area .skills-img {
@@ -303,18 +253,6 @@ nav ul li a {
   font-size: 21px;
   font-weight: 300;
 }
-.skills-area h3 {
-  text-align: center;
-  color: white;
-<<<<<<< HEAD
-  font-weight: 400;
-  text-transform: uppercase;
-=======
-  font-weight: 100;
-  opacity: .7;
->>>>>>> master
-  margin-top: 0;
-}
 .skills-area img {
   width: 200px;
   height: 200px;
@@ -325,8 +263,6 @@ nav ul li a {
 
 .fields {
   height: 100vh;
-  background-color:#D6D6D6;
-  box-shadow: 0 3px 10px rgba(0,0,0,0.16), 0 3px 10px rgba(0,0,0,0.23);
 }
 
 .fields .fields-img {
@@ -335,16 +271,13 @@ nav ul li a {
   justify-content: space-around;;
   align-items: center;
   height: 50%;
-
 }
 .fields-img div {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: #636161;
-  padding: 10px;
-
+  color: white;
 }
 .fields-img div h3 {
   font-size: 21px;
@@ -355,39 +288,23 @@ nav ul li a {
 .fields h2 {
   z-index: 2;
   font-size: 64px;
-  color: #c84c1e;
+  color: #fff;
   padding-top: 100px;
   text-align: center;
   margin-bottom: 0;
-  font-family: 'Oswald', sans-serif;
-  text-transform: uppercase;
-  margin-top: 0;
 }
 
 .fields h3 {
   text-align: center;
-  text-transform: uppercase;
   color: white;
-<<<<<<< HEAD
-  font-weight: 400;
-=======
   font-weight: 100;
->>>>>>> master
-  font-size: 20px;
+  opacity: .7;
   margin-top: 0;
 }
 
 .fields img {
-  margin-top: 100px;
   width: 200px;
   height: 200px;
-  box-shadow: 0 1px 5px rgba(0,0,0,0.16), 0 1px 5px rgba(0,0,0,0.23);
-
-}
-
-
-.fields p{
-  text-align: center;
 }
 
 /*********** CONTACT ***********/
@@ -399,26 +316,16 @@ nav ul li a {
 .contact h2 {
   z-index: 2;
   font-size: 64px;
-<<<<<<< HEAD
-  color: black;
-=======
   color: #fff;
->>>>>>> master
   padding-top: 100px;
   text-align: center;
   margin: 0;
-  font-family: 'Oswald', sans-serif;
-  text-transform: uppercase;
 
 }
 
 #page-wrap {
 	width: 660px;
-<<<<<<< HEAD
 	background: white;
-=======
-	background: #EAEAEA;
->>>>>>> master
 	padding: 20px 50px 20px 50px;
 	margin: 20px auto;
 	min-height: 500px;
@@ -434,7 +341,7 @@ nav ul li a {
 #contact-area input, #contact-area textarea {
 	padding: 5px;
 	width: 471px;
-	font-family: 'Oswald', sans-serif;
+	font-family: Helvetica, sans-serif;
 	font-size: 1.4em;
 	margin: 0px 0px 10px 0px;
 	border: 2px solid #ccc;
@@ -449,39 +356,9 @@ nav ul li a {
 }
 
 #contact-area input.submit-button {
-  width: 70px;
-  font-family: 'Raleway', sans-serif;
-  text-transform: uppercase;
-  -moz-border-radius: 14px;
-  -moz-transition: all 0.5s ease-in;
-  -ms-transition: all 0.5s ease-in;
-  -o-transition: all 0.5s ease-in;
-  -webkit-border-radius: 14px;
-  -webkit-box-shadow: #6E7849 0 0 10px;
-  -webkit-transition: all 0.5s ease-in;
-  background-color: #303130;
-  border-radius: 14px;
-  color: #ffffff;
-  display: inline-block;
-  font-size: 13px;
-  margin: auto;
-  margin-left: 500px;
-  padding: 10px;
-  text-decoration: none;
-  transition: all 0.5s ease-in;
+	width: 100px;
+	float: right;
 }
-
-#contact-area input.submit-button:hover {
-  font-family: 'Raleway', sans-serif;
-  text-transform: uppercase;
-  -moz-border-radius: 14px;
-  -webkit-border-radius: 14px;
-  background-color: #c84c1e;
-  border-radius: 14px;
-  font-size: 15px;
-  padding: 10px;
-}
-
 
 label {
 	float: left;
@@ -489,6 +366,5 @@ label {
 	margin-right: 15px;
 	width: 100px;
 	padding-top: 5px;
-	font-size: 1.2em;
-  font-family: 'Raleway', sans-serif;
+	font-size: 1.4em;
 }
