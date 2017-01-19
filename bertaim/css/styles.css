@@ -2,7 +2,11 @@ body{
   margin: 0;
   min-width: 550px;      /* 2x LC width + RC width */
   font-family: 'Open Sans', Helvetica,serif;
+<<<<<<< HEAD
+  background-color: #EAEAEA;
+=======
   background-color: white;
+>>>>>>> b8751686201662b8ab84e187e6bcd40a8a1dd05a
 }
 /*********** HEADER ***********/
 header {
@@ -16,6 +20,8 @@ header {
   }
 
 
+<<<<<<< HEAD
+=======
   #navigation-page {
     position: absolute;
     color: white;
@@ -31,6 +37,7 @@ header {
   }
 
 
+>>>>>>> b8751686201662b8ab84e187e6bcd40a8a1dd05a
 nav {
   max-width: 50rem;
   /*padding-top: 16px;*/
@@ -299,8 +306,13 @@ nav ul li a {
 .skills-area h3 {
   text-align: center;
   color: white;
+<<<<<<< HEAD
+  font-weight: 100;
+  opacity: .7;
+=======
   font-weight: 400;
   text-transform: uppercase;
+>>>>>>> b8751686201662b8ab84e187e6bcd40a8a1dd05a
   margin-top: 0;
 }
 .skills-area img {
@@ -356,7 +368,11 @@ nav ul li a {
   text-align: center;
   text-transform: uppercase;
   color: white;
+<<<<<<< HEAD
+  font-weight: 100;
+=======
   font-weight: 400;
+>>>>>>> b8751686201662b8ab84e187e6bcd40a8a1dd05a
   font-size: 20px;
   margin-top: 0;
 }
@@ -383,7 +399,11 @@ nav ul li a {
 .contact h2 {
   z-index: 2;
   font-size: 64px;
+<<<<<<< HEAD
+  color: #fff;
+=======
   color: black;
+>>>>>>> b8751686201662b8ab84e187e6bcd40a8a1dd05a
   padding-top: 100px;
   text-align: center;
   margin: 0;
@@ -394,7 +414,11 @@ nav ul li a {
 
 #page-wrap {
 	width: 660px;
+<<<<<<< HEAD
+	background: #EAEAEA;
+=======
 	background: white;
+>>>>>>> b8751686201662b8ab84e187e6bcd40a8a1dd05a
 	padding: 20px 50px 20px 50px;
 	margin: 20px auto;
 	min-height: 500px;
