@@ -456,6 +456,7 @@ b i:last-child {
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 #navigation-page li img{
   height: 30px;
