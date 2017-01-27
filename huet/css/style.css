@@ -456,7 +456,7 @@ b i:last-child {
   display: flex;
   justify-content: center;
   align-items: center;
-  
+
 }
 #navigation-page li img{
   height: 30px;
@@ -846,6 +846,13 @@ b i:last-child {
 #contact-area input.submit-button {
 	width: 100px;
 	float: right;
+  transition: 1s ease;
+
+}
+
+#contact-area input.submit-button:hover{
+  background-color: blue;
+  transition: 1s ease;
 }
 
 label {
