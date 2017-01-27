@@ -131,7 +131,7 @@ nav{
 .bg-img {
   width: 100%;
   height: 100vh;
-  background: url('../img/beach.jpeg');
+  background: url('../assets/671264.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
@@ -148,7 +148,7 @@ nav{
   right: 0;
   bottom: 0;
   left: 0;
-  background-image: linear-gradient(to top, #5BC3EB, #fff);
+  background-image: linear-gradient(to top, #0033ff, #fff);
   opacity: .8;
 }
 
@@ -165,7 +165,7 @@ nav{
 
 .bg-img h1,
 .bg-img p {
-  color: #1D1E3E;
+  color: #FFF;
 }
 
 .bg-img h1 {
@@ -177,7 +177,7 @@ nav{
 .bg-img p {
   font-size: 18px;
   font-weight: 500;
-  color: #1D1E3E;
+  color: #FFF;
   margin: 0;
   opacity: 0.5;
 }
@@ -209,7 +209,7 @@ section{
 
 /*section skills*/
 .skills{
-background: #0033FF;
+background: #fff;
 color: #4e4e4e;
   text-align: center;
 
@@ -218,7 +218,7 @@ color: #4e4e4e;
 
 .skills-area h2 {
   z-index: 2;
-color: #FFF;
+color: #000;
 text-align: center;
 }
 
@@ -227,7 +227,7 @@ text-align: center;
 */
 
 .skills-area h3{
-  color: #FFF;
+  color: #000;
   font-size: 21px;
   font-weight: 200;
 }
@@ -244,16 +244,20 @@ text-align: center;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: blue;
 }
 
 
 .skills-area img {
+  padding-bottom: 50px;
   width: 200px;
   height: 200px;
 }
 
 
+#skills{
+      box-shadow: 0px 15px 20px 2px #888888;
+}
 
 /*********** FIELDS ***********/
 
@@ -318,113 +322,85 @@ text-align: center;
   height: 200px;
 }
 
-.contact {
-  height: 90vh;
-}
+#contact-area{  padding: 20px;
+background-image: linear-gradient(to top, #0033ff, #00ffec);}
 
-.contact {
-  height: 50vh;
+#contact-area form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  padding: 20px;
 
-}
 
-.contact h2 {
-  z-index: 2;
-  font-size: 64px;
-
-  padding-top: 100px;
-  text-align: center;
-  margin: 0;
 
 }
 
-#page-wrap {
-	width: 660px;
-	background: white;
-	padding: 20px 50px 20px 50px;
-	margin: 20px auto;
-	min-height: 500px;
-	height: auto !important;
-	height: 500px;
-}
-
-#contact-area {
-	width: 600px;
-	margin-top: 5px;
+.contact .form-section {
+  margin: auto;
+  display: flex;
+justify-content: space-around;
 
 }
+
+
+.form-section {
+    width: 860px;
+    display: flex;
+    flex-direction: column;
+}
+
 
 #contact-area input, #contact-area textarea {
-	padding: 5px;
-	width: 471px;
-	font-family: Helvetica, sans-serif;
-	font-size: 1.4em;
-	margin: 0px 10px 10px 0px;
+    padding: 5px;
+    width: 300px;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.4em;
+    margin: 0px 0px 10px 0px;
+    border: 2px;
 
-
+    border-radius: 20px;
+    color: #000;
+    transition: ease 0.5s;
 }
 
-textarea#Message{
-  float: left;
+label {
+  font-family: 'Lato', sans-serif;
 
+
+    width: 280px;
+    padding-bottom: 5px;
+    font-size: 16px;
+
+    opacity: .7;
+    letter-spacing: .5px;
 }
 
-input[type=text]{
-color: #0033FF;
-opacity: 1;
-	-webkit-transition: .333s ease top, .333s ease opacity;
-	transition: .333s ease top, .333s ease opacity;
+#contact-area form div {
+    display: flex;
+    flex-direction: column;
 }
 
-input:focus{
-border-bottom:2px solid #0033FF;
-opacity: 1;
 
+#contact-area textarea {
+    height: 90px;
 }
 
-select:focus {
-	box-shadow: none;
-	border-bottom: #5e9bfc;
+
+#contact-area input.submit-button {
+    transition: ease 0.5s;
+    width: 100px;
+    float: right;
+    color: #000;
 }
 
 
 input:focus,
 select:focus,
 textarea:focus,
-button:focus
-{
+button:focus {
     outline: none;
 }
-
-
-#contact-area textarea {
-	height: 90px;
-}
-
-#contact-area textarea:focus, #contact-area input:focus {
-	border-bottom: : 2px solid #0033FF;
-}
-
-#contact-area input.submit-button {
-	width: 100px;
-	float: right;
-  color:#000
-}
-
-.submit-button:hover{
-  color: rgb(0, 36, 166);
-}
-
-
-label {
-  font-family: 'Montserrat', sans-serif;
-color: #0033FF;
-	text-align: right;
-	margin-right: 15px;
-	width: 200px;
-	padding-top: 10px;
-	font-size: 1.4em;
-}
-
-/*footer
 
 .
