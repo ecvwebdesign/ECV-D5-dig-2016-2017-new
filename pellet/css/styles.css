@@ -378,3 +378,16 @@ label {
 	font-size: 1.4em;
   color:white;
 }
+
+#retour a {
+  width: 100px;
+	float: center;
+  background: #333E81;
+  color : white;
+padding: 10px;
+	border: 2px solid #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1.4em;
+
+}
