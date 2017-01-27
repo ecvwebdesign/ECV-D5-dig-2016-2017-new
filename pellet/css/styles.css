@@ -17,12 +17,17 @@ header {
     position: absolute;
     left: 100px;
     opacity: .5;
-    top: 18px;
+    top: 3px;
+    display: flex;
+    list-style: none;
+
 
   }
   #navigation-page li img{
     height: 30px;
     display: list-item;
+  
+
   }
 
 nav {
