@@ -1,0 +1,197 @@
+<html>
+
+<head>
+
+  <link rel="stylesheet" href="styles/main.css" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|PT+Serif:400,400i,700,700i|Vesper+Libre:400,500,700,900" rel="stylesheet">
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+
+  <script>
+  //scroll animation
+
+  $(document).ready(function() {
+    $('.js-scrollTo').on('click', function() { // Au clic sur un élément
+      var page = $(this).attr('href'); // Page cible
+      var speed = 450; // Durée de l'animation (en ms)
+      $('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
+      return false;
+    });
+  });
+  </script>
+
+  <script>
+  $(document).ready(function() {
+    // Test for placeholder support
+    $.support.placeholder = (function(){
+      var i = document.createElement('input');
+      return 'placeholder' in i;
+    })();
+
+    // Hide labels by default if placeholders are supported
+    if($.support.placeholder) {
+      $('.form-label').each(function(){
+        $(this).addClass('js-hide-label');
+      });
+
+      // Code for adding/removing classes here
+      $('.form-group').find('input, textarea').on('keyup blur focus', function(e){
+
+        // Cache our selectors
+        var $this = $(this),
+        $parent = $this.parent().find("label");
+
+        if (e.type == 'keyup') {
+          if( $this.val() == '' ) {
+            $parent.addClass('js-hide-label');
+          } else {
+            $parent.removeClass('js-hide-label');
+          }
+        }
+        else if (e.type == 'blur') {
+          if( $this.val() == '' ) {
+            $parent.addClass('js-hide-label');
+          }
+          else {
+            $parent.removeClass('js-hide-label').addClass('js-unhighlight-label');
+          }
+        }
+        else if (e.type == 'focus') {
+          if( $this.val() !== '' ) {
+            $parent.removeClass('js-unhighlight-label');
+          }
+        }
+      });
+    }
+  });
+  </script>
+
+  <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script>
+  $(function(){
+    $('a').each(function(){
+      if ($(this).prop('href') == window.location.href) {
+        $(this).addClass('active'); $(this).parents('li').addClass('active');
+      }
+    });
+  });
+  </script>
+
+
+</head>
+
+<body>
+
+
+  <header class="header">
+    <ul class="navigation">
+      <li><a class="js-scrollTo" href="#home">Intro</a></li>
+      <li><a class="js-scrollTo" href="#about">About</a></li>
+      <li><a class="js-scrollTo" href="#skills">Skills</a></li>
+      <li><a class="js-scrollTo" href="#contact">Contact</a></li>
+    </ul>
+
+  </header>
+
+
+
+  <div class="logo"><img src="styles/images/logo.svg"></div>
+  <div class="wrapper">
+    <ul id="navigation-page">
+      <li><a href="https://ecvwebdesign.github.io/ECV-D5-dig-2016-2017-new/lacroix/"><img src="img/icons/navigation/prev-icon.svg" alt="icone de portfolio précedent"></a></li>
+      <li><a href="https://ecvwebdesign.github.io/ECV-D5-dig-2016-2017-new/"><img src="img/icons/navigation/home-icon.svg" alt="icone de retour sur la home collective"></a></li>
+      <li><a href="https://ecvwebdesign.github.io/ECV-D5-dig-2016-2017-new/pellet/"><img src="img/icons/navigation/next-icon.svg" alt="icone de portfolio suivant"></a></li>
+    </ul>
+    <section class="hero" id="home">
+
+      <section id="scroll" class="js-scrollTo">
+        <a class="js-scrollTo" href="#about"><span></span></a>
+      </section>
+      <h1>Maxime Nugues
+        <h3>UX/UI designer</h3>
+      </h1>
+
+    </section>
+
+
+    <article class="about" id="about">
+      <h1>About</h1>
+
+      <div class="line"></div>
+
+      <p>I am Max, a French designer based in Bordeaux. Studying in ECV Bordeaux, I am specializing in Art direction, Motion design (mainly 2d animation) and User interface design. I worked 4 months as a junior designer at Leeroy, a digital innovation agency, and I had the privilege to work on several cool projects for Life Of Pix, Revols, Jaywalk, April, Axelio,… I’m currently available for freelancing and interested in any job position that fits my field of competence.
+If you would like to see more of my work.
+      </p>
+
+      <ul class="flex-container">
+        <li  class="flex-item"><a href="https://dribbble.com/MaximeNugues"> <img src="styles/images/design.svg" /></a></li>
+        <li class="flex-item" ><a href="https://www.behance.net/MaximeNugues"><img src="styles/images/motion.svg" /></a></li>
+        <li class="flex-item" ><a href="https://vimeo.com/maximenugues"><img src="styles/images/illustration.svg" /></a></li>
+        <li class="flex-item" ><a href="https://twitter.com/MaximeNugues"><img src="styles/images/twitter.svg" /></a></li>
+      </ul>
+
+    </article>
+
+    <article class="skills" id="skills">
+      <h1> Skills </h1>
+      <div class="line"></div>
+
+
+        <p>I have always been studying new techniques to improve my knowledge, face new challenges and do my best in every creation. I mostly work with adobe and I recently discovered Sketch that can replace both Photoshop and Illustrator. I also use slack to work as a team with students and teachers.</p>
+
+<ul class="flex-container">
+        <li class="flex-item"><img src="styles/images/Ps.svg"><h3></h3>
+          </li>
+          <li class="flex-item"><img src="styles/images/Ai.svg"><h3></h3>
+            </li>
+            <li class="flex-item"><img src="styles/images/Ae.svg"><h3></h3>
+              </li>
+            <li class="flex-item"><img src="styles/images/sketch.svg"><h3></h3>
+              </li>
+
+              </ul>
+            </article>
+
+            <div class="container">
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center" id="contact">
+
+                  <h2>Contact</h2>
+
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xs-offset-3">
+                  <form id="contact-form" class="form" action="https://getsimpleform.com/messages?form_api_token=ccbe70b0a80c9bb63d00febb969f8bb2" method="POST" role="form">
+                    <input type='hidden' name='redirect_to' value="https://ecvwebdesign.github.io/ECV-D5-dig-2016-2017-new/nugues/thankyou" />
+                      <div class="form-group">
+                        <label class="form-label" for="name">Your name</label>
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Your name" tabindex="1" required>
+                      </div>
+                      <div class="form-group">
+                        <label class="form-label" for="email">Your mail</label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="You mail" tabindex="2" required>
+                      </div>
+                      <div class="form-group">
+                        <label class="form-label" for="subject">Subject</label>
+                        <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" tabindex="3">
+                      </div>
+                      <div class="form-group">
+                        <label class="form-label" for="message">Message</label>
+                        <textarea rows="5" cols="50" name="message" class="form-control" id="message" placeholder="Message..." tabindex="4" required></textarea>
+                      </div>
+                      <div class="text-center">
+                        <button type="submit" class="btn btn-start-order">Submit</button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </body>
+
+
+
+        </html>

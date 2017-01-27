@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="199px" height="199px" viewBox="0 0 199 199" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #5BC3EB;">
-    <!-- Generator: Sketch 41.1 (35376) - http://www.bohemiancoding.com/sketch -->
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
     <title>wireframe</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="wireframe">
             <g id="icon-wireframe" transform="translate(5.000000, 5.000000)">
-                <path d="M95,190 C147.467051,190 190,147.467051 190,95 C190,42.5329488 147.467051,0 95,0 C42.5329488,0 0,42.5329488 0,95 C0,147.467051 42.5329488,190 95,190 Z" id="Oval-Copy" stroke="#FFFFFF"></path>
+                <path d="M95,190 C147.467051,190 190,147.467051 190,95 C190,42.5329488 147.467051,0 95,0 C42.5329488,0 0,42.5329488 0,95 C0,147.467051 42.5329488,190 95,190 Z" id="Oval-Copy" stroke="#FFFFFF" stroke-width="2"></path>
                 <g id="img+text-outline-slide" transform="translate(39.520000, 35.720000)">
                     <path d="M9.19593787,5.31468 C9.19593787,6.1961508 8.48138849,6.91068 7.59995221,6.91068 C6.7185138,6.91068 6.00396654,6.1961508 6.00396654,5.31468 C6.00396654,4.4332092 6.7185138,3.71868 7.59995221,3.71868 C8.48138849,3.71868 9.19593787,4.4332092 9.19593787,5.31468 L9.19593787,5.31468 Z" id="Fill-14" fill="#FFFFFF"></path>
                     <path d="M13.9838949,5.31468 C13.9838949,6.1961508 13.2693455,6.91068 12.3879092,6.91068 C11.5064729,6.91068 10.7919235,6.1961508 10.7919235,5.31468 C10.7919235,4.4332092 11.5064729,3.71868 12.3879092,3.71868 C13.2693455,3.71868 13.9838949,4.4332092 13.9838949,5.31468 L13.9838949,5.31468 Z" id="Fill-15" fill="#FFFFFF"></path>
                     <path d="M18.7718518,5.31468 C18.7718518,6.1961508 18.0573025,6.91068 17.1758662,6.91068 C16.2944299,6.91068 15.5798805,6.1961508 15.5798805,5.31468 C15.5798805,4.4332092 16.2944299,3.71868 17.1758662,3.71868 C18.0573025,3.71868 18.7718518,4.4332092 18.7718518,5.31468 L18.7718518,5.31468 Z" id="Fill-16" fill="#FFFFFF"></path>
                     <g id="Group-6-Copy" transform="translate(13.680000, 30.400000)">
                         <g id="Group-2">
-                            <rect id="Rectangle-3" stroke="#FFFFFF" x="0" y="0" width="82.6931592" height="42.9948019"></rect>
+                            <rect id="Rectangle-3" stroke="#FFFFFF" stroke-width="2" x="0" y="0" width="82.6931592" height="42.9948019"></rect>
                             <g id="Img" transform="translate(24.907411, 11.072403)" fill="#FFFFFF">
                                 <path d="M21.9726206,13.5541441 L13.7381725,2.89498857 L7.10542736e-15,20.6784898 L21.9810761,20.6784898 L32.7753545,20.6784898 L24.6305808,10.1029193 L21.9726206,13.5541441 Z" id="Combined-Shape"></path>
                                 <ellipse id="Oval-2" cx="24.6632907" cy="2.89498857" rx="3.20557359" ry="2.89498857"></ellipse>
@@ -32,8 +32,8 @@
                             </g>
                         </g>
                     </g>
-                    <rect id="Rectangle-2" stroke="#FFFFFF" x="0" y="10.64" width="110.96" height="106.636444"></rect>
-                    <rect id="Rectangle-2" stroke="#FFFFFF" x="0" y="0" width="110.96" height="117.04"></rect>
+                    <rect id="Rectangle-2" stroke="#FFFFFF" stroke-width="2" x="0" y="10.64" width="110.96" height="106.636444"></rect>
+                    <rect id="Rectangle-2" stroke="#FFFFFF" stroke-width="2" x="0" y="0" width="110.96" height="117.04"></rect>
                     <rect id="Rectangle-4" stroke="#FFFFFF" x="13.68" y="18.24" width="21.1444586" height="3.25111111"></rect>
                 </g>
             </g>

@@ -2,19 +2,25 @@
 <html lang="en" class="no-js">
     <head>
         <meta charset="utf-8" />
-        <title>Title undefined</title>
+        <title>Thibaut Lacroix</title>
         <link rel="stylesheet" href="css/styles.css" />
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
-        <script src="js/contact-form/modernizr.custom.js"></script>
-
+        <link rel="icon" type="image/png" href="img/favicon.png" />
     </head>
 
   <body>
 
     <header>
       <nav class="navigation">
+        <!-- START OF navigation-page-->
+        <ul id="navigation-page">
+          <li><a href="https://ecvwebdesign.github.io/ECV-D5-dig-2016-2017-new/huet/"><img src="img/icons/navigation/prev-icon.svg" alt="icone de portfolio précedent"></a></li>
+          <li><a href="https://ecvwebdesign.github.io/ECV-D5-dig-2016-2017-new/"><img src="img/icons/navigation/home-icon.svg" alt="icone de retour sur la home collective"></a></li>
+          <li><a href="https://ecvwebdesign.github.io/ECV-D5-dig-2016-2017-new/nugues/"><img src="img/icons/navigation/next-icon.svg" alt="icone de portfolio suivant"></a></li>
+        </ul>
+        <!-- END OF navigation-page-->
         <ul id="top-menu">
-          <li class="active menu-title cool-link"><a href="#home">Home</a></li>
+          <li class="active menu-title cool-link"><a href="#home">Welcome</a></li>
           <li class="cool-link"><a href="#prez">Presentation</a></li>
           <li class="cool-link"><a href="#skills">Skills</a></li>
           <li class="cool-link"><a href="#fields">Fields</a></li>
@@ -107,49 +113,33 @@
       <div id="contact" class="contact">
         <h2>Contact</h2>
         <div class="form-section">
-          <form action="https://getsimpleform.com/messages?form_api_token=c2e96e7bcbaaf45d195572f4bb3e683d" id="theForm" class="simform" autocomplete="off">
-            <div class="simform-inner">
-              <ol class="questions">
-                <li>
-                  <span><label for="q1">What's your message ?</label></span>
-                  <input id="q1" name="q1" type="text"/>
-                </li>
-                <li>
-                  <span><label for="q2">What's your name ?</label></span>
-                  <input id="q2" name="q2" type="text"/>
-                </li>
-                <li>
-                  <span><label for="q3">What's your Email ?</label></span>
-                  <input id="q3" name="q3" type="text"/>
-                </li>
-              </ol><!-- /questions -->
-              <button class="submit" type="submit">Send answers</button>
-              <div class="controls">
-                <button class="next"></button>
-                <div class="progress"></div>
-                <span class="number">
-                  <span class="number-current"></span>
-                  <span class="number-total"></span>
-                </span>
-                <span class="error-message"></span>
-              </div><!-- / controls -->
-            </div><!-- /simform-inner -->
-            <span class="final-message"></span>
-          </form><!-- /simform -->
-        </div><!-- form-section -->
-        <!-- <div class="social-icon">
-          <p>Find us on :</p>
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <img src="" alt="" />
-        </div> -->
-        <ul class="social-networks bounce">
-          <li><a href="https://www.linkedin.com/in/thibaut-lacroix-079a10108?authType=NAME_SEARCH&authToken=xQUj&locale=fr_FR&srchid=4563787171480259089345&srchindex=1&srchtotal=6&trk=vsrp_people_res_name&trkInfo=VSRPsearchId%3A4563787171480259089345%2CVSRPtargetId%3A456378717%2CVSRPcmpt%3Aprimary%2CVSRPnm%3Atrue%2CauthType%3ANAME_SEARCH" class="icon-linkedin">LinkedIn</a></li>
-          <li><a href="https://github.com/Thibaut-Lacroix/" class="icon-github">GitHub</a></li>
-          <li><a href="https://dribbble.com/Thibautlac" class="icon-pinterest">Dribbble</a></li>
-        </ul>
-      </div><!-- contact -->
-    </div> <!-- container end -->
+
+            <div id="contact-area">
+        			<form method="post" action="https://getsimpleform.com/messages?form_api_token=c2e96e7bcbaaf45d195572f4bb3e683d" method="post">
+                <input type='hidden' name='redirect_to' value='https://ecvwebdesign.github.io/ECV-D5-dig-2016-2017-new/lacroix/thankyou.html' />
+
+                <div>
+                  <label for="Name">Nom :</label>
+          				<input type="text" name="Name" id="Name" />
+                </div>
+
+                <div>
+                  <label for="Email">Email :</label>
+                  <input type="text" name="Email" id="Email" />
+                </div>
+
+                <div>
+                  <label for="Message">Message :</label>
+                  <textarea name="Message" rows="20" cols="20" id="Message"></textarea>
+                </div>
+
+        				<input type="submit" name="submit" value="Submit" class="submit-button" />
+        			</form>
+        		</div>
+
+      </div><!-- form-section end -->
+    </div> <!-- contact -->
+  </div> <!-- container end-->
 
   <footer>
   </footer>
@@ -157,29 +147,5 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script type="text/javascript" src="js/smoothscroll.js"></script>
 
-    <!-- CONTACT FORM -->
-    <script src="js/contact-form/classie.js"></script>
-    <script src="js/contact-form/stepsForm.js"></script>
-    <script>
-      var theForm = document.getElementById( 'theForm' );
-
-      new stepsForm( theForm, {
-        onSubmit : function( form ) {
-          // hide form
-          classie.addClass( theForm.querySelector( '.simform-inner' ), 'hide' );
-
-          /*
-          form.submit()
-          or
-          AJAX request (maybe show loading indicator while we don't have an answer..)
-          */
-
-          // let's just simulate something...
-          var messageEl = theForm.querySelector( '.final-message' );
-          messageEl.innerHTML = 'Thank you! We\'ll be in touch.';
-          classie.addClass( messageEl, 'show' );
-        }
-      } );
-    </script>
   </body>
 </html>

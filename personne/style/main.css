@@ -1,0 +1,430 @@
+body{
+  background: #FFF;
+  margin: inherit;
+
+}
+
+
+/* fonts */
+
+h1{
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+
+}
+h2{
+  text-align: center;
+font-family: 'Montserrat', sans-serif;
+font-weight: 400;
+
+}
+
+h3{
+font-family: 'Lato', sans-serif;
+font-size: 40px;
+text-align: center;
+
+}
+
+p{
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+
+header {
+  width: 100%;
+  height:65px ;
+  background-color: #fff;
+  position: fixed;
+  z-index: 3;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  }
+
+
+nav {
+  max-width: 50rem;
+  /*padding-top: 16px;*/
+  height: 65px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  flex: 4.3;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+nav ul li a {
+  font-family: 'Work Sans', sans-serif;
+  color: #000;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 200;
+  padding-left: 30px;
+  text-transform: uppercase;
+}
+
+nav a:hover{
+  color: #0033FF;
+}
+
+
+
+
+ /*header
+header{
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+  background: #FFF;
+}
+
+
+/* naviguation
+nav{
+  padding: 30px;
+}
+
+.navigation a{
+  font-family: 'Work Sans', sans-serif;
+  color: #000;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  padding-left: 30px;
+
+}
+
+/*image cover
+
+.hero{
+  background: url("/Users/Anna/Desktop/M2/Web-Ian/ECV-D5-dig-2016-2017/personne/Exo-2/assets/beach.jpg");
+  background-size: cover;
+  min-height: 80vh;
+  position: relative;
+}
+
+
+.hero h1{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+
+  text-align: center;
+  width: 100%;
+  display: block;
+  margin: auto;
+
+
+}
+*/
+
+/*********** BG-IMG HOME ***********/
+
+.bg-img {
+  width: 100%;
+  height: 100vh;
+  background: url('../img/beach.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.bg-img::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(to top, #5BC3EB, #fff);
+  opacity: .8;
+}
+
+.bg-img img,
+.bg-img h1,
+.bg-img p {
+  z-index: 2;
+}
+
+.bg-img img {
+  margin-top: 100px;
+  height: 450px;
+}
+
+.bg-img h1,
+.bg-img p {
+  color: #1D1E3E;
+}
+
+.bg-img h1 {
+  font-size: 40px;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 0 0 0;
+}
+
+.bg-img p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #1D1E3E;
+  margin: 0;
+  opacity: 0.5;
+}
+
+
+
+section{
+  padding: 30px;
+
+}
+
+
+
+
+/* la section about*/
+
+.About{
+  text-align: center;
+  background:rgb(245, 245, 245);
+
+}
+
+.About h1{
+  font-size: 40px;
+  font-weight: 200;
+  color: #4e4e4e;
+
+}
+
+/*section skills*/
+.skills{
+background: #0033FF;
+color: #4e4e4e;
+  text-align: center;
+
+
+}
+
+.skills-area h2 {
+  z-index: 2;
+color: #FFF;
+text-align: center;
+}
+
+/*.skills-area {
+  height: 100vh;
+*/
+
+.skills-area h3{
+  color: #FFF;
+  font-size: 21px;
+  font-weight: 200;
+}
+
+.skills-area .skills-img {
+  margin: auto;
+  display: flex;
+  justify-content: space-around;;
+  align-items: center;
+  height: 50%;
+}
+.skills-img div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+
+.skills-area img {
+  width: 200px;
+  height: 200px;
+}
+
+
+
+/*********** FIELDS ***********/
+
+
+/*section adventure*/
+
+.fields {
+    background:rgb(245, 245, 245);
+    padding-bottom: 30px;
+
+}
+
+.fields .fields-img {
+  margin: auto;
+  display: flex;
+  justify-content: space-around;;
+  align-items: center;
+  height: 50%;}
+
+.fields-img div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.fields-img div h3 {
+  font-size: 21px;
+  font-weight: 300;
+  margin-top: 25px;
+}
+
+.fields h2 {
+  color: #4e4e4e;
+  z-index: 2;
+}
+
+.fields h3 {
+  text-align: center;
+  color: #000;
+  font-weight: 100;
+  opacity: .7;
+  margin-top: 0;
+
+
+}
+
+.fields p {
+
+  width:200px;
+  font-size: 15px;
+  text-align: center;
+  color: #000;
+  font-weight: 100;
+  opacity: .7;
+  margin-top: 20px;
+}
+
+.fields img {
+  width: 200px;
+  height: 200px;
+}
+
+.contact {
+  height: 90vh;
+}
+
+.contact {
+  height: 50vh;
+
+}
+
+.contact h2 {
+  z-index: 2;
+  font-size: 64px;
+
+  padding-top: 100px;
+  text-align: center;
+  margin: 0;
+
+}
+
+#page-wrap {
+	width: 660px;
+	background: white;
+	padding: 20px 50px 20px 50px;
+	margin: 20px auto;
+	min-height: 500px;
+	height: auto !important;
+	height: 500px;
+}
+
+#contact-area {
+	width: 600px;
+	margin-top: 5px;
+
+}
+
+#contact-area input, #contact-area textarea {
+	padding: 5px;
+	width: 471px;
+	font-family: Helvetica, sans-serif;
+	font-size: 1.4em;
+	margin: 0px 10px 10px 0px;
+
+
+}
+
+textarea#Message{
+  float: left;
+
+}
+
+input[type=text]{
+color: #0033FF;
+opacity: 1;
+	-webkit-transition: .333s ease top, .333s ease opacity;
+	transition: .333s ease top, .333s ease opacity;
+}
+
+input:focus{
+border-bottom:2px solid #0033FF;
+opacity: 1;
+
+}
+
+select:focus {
+	box-shadow: none;
+	border-bottom: #5e9bfc;
+}
+
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus
+{
+    outline: none;
+}
+
+
+#contact-area textarea {
+	height: 90px;
+}
+
+#contact-area textarea:focus, #contact-area input:focus {
+	border-bottom: : 2px solid #0033FF;
+}
+
+#contact-area input.submit-button {
+	width: 100px;
+	float: right;
+  color:#000
+}
+
+.submit-button:hover{
+  color: rgb(0, 36, 166);
+}
+
+
+label {
+  font-family: 'Montserrat', sans-serif;
+color: #0033FF;
+	text-align: right;
+	margin-right: 15px;
+	width: 200px;
+	padding-top: 10px;
+	font-size: 1.4em;
+}
+
+/*footer
+
+.

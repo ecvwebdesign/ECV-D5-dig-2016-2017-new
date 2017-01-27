@@ -1,0 +1,493 @@
+body {
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+    margin :0;
+    text-align: justify;
+
+}
+
+
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap : wrap;
+}
+
+nav li {
+ margin: 4px;
+}
+
+nav a {
+  padding : 7px;
+  background: #ffd400;
+  text-decoration: none;
+  color:blue;
+  font-family: 'Montserrat', sans-serif;
+}
+
+section {
+  //border : 1px solid red;
+
+}
+
+section .content {
+  max-width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap : wrap;
+}
+
+#hero {
+background:url(../images/travail4.jpg);
+background-size: cover;
+min-height:62vh;
+position:relative;
+padding-top: 5px;
+z-index:10;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+#hero::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  //background-image: linear-gradient(to top, blue, #fff);
+  background: blue;
+  opacity: .4;
+  z-index:9;
+}
+
+#hero h1{
+  position:relative;
+  text-align:center;
+  margin:0 auto;
+  z-index:15;
+  color:white;
+  font-size:70px;
+}
+
+#leader{
+  background:#ffd400;
+  padding-top: 5px;
+  padding-bottom:30px;
+  }
+
+.skills-item{
+  max-width: 200px;
+  text-align: center;
+}
+
+#skills {
+  padding-top: 10px;
+  padding-bottom:50px;
+
+}
+.adventure-item {
+  max-width: 200px;
+  text-align: center;
+}
+
+
+
+#adventure{
+  background:#ef1a6f;
+  padding-top: 10px;
+  padding-bottom:50px;
+}
+
+#adventure h2 {
+ text-align: center;
+}
+
+#form{
+  padding-top: 10px;
+  padding-bottom:50px;
+}
+
+#form p{
+  margin-bottom:50px;
+}
+
+form {
+  //border:1px solid #000;
+}
+
+label {
+/*  border:1px solid #3fad20;
+  width:150px;
+  float:left;
+  clear:left;
+  text-align:right;
+  margin-right:15px; */
+  display: block;
+  height : 0;
+  width : 0;
+  text-indent: -99999;
+}
+
+input[type=text]{
+  //border:20px solid red;
+  border:0;
+  margin-bottom: 10px;
+  padding:5px;
+}
+
+textarea {
+  //border:1px solid yellow;
+  border:0px;
+  padding : 5px;
+  margin  : 0;
+  width   : 98.5%;
+  height: 100px;
+  margin-bottom: 10px;
+
+}
+
+button, input, select, textarea {
+  font-family : 'Lato', sans-serif;
+  font-size   : 100%;
+}
+
+.submit-button {
+  border:none;
+  width: 100px;
+  background: blue;
+  color:white;
+  font-family: 'Petit Formal Script', cursive;
+  float:right;
+}
+
+#contact-area {
+  background: #ffd400;
+  max-width:640px;
+  margin:0 auto;
+  padding:10px;
+}
+
+h1 {
+  font-family: 'Archivo Black', sans-serif;
+  font-family: 'Dosis', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-size:25px;
+  margin-top :30px;
+  margin-bottom: 10px;
+  //margin-left: 50px;
+  text-align:center;
+  padding-bottom:30px;
+
+}
+
+.icon{
+  max-width: 40px;
+
+}
+
+.icons{
+  list-style: none;
+}
+
+#social{
+  padding-top:30px;
+  padding-bottom: 20px;
+  margin-bottom: 0px;
+  margin-top:50px;
+  background:#ffd400;
+  min-height: 10vh;
+}
+
+#message h2 {
+  text-align: center;
+  color:white;
+  margin-top:130px;
+  padding:100px;
+  background:#ef1a6f;
+}
+
+#retour p {
+  text-align: center;
+
+}
+
+#navigation-page {
+  position: absolute;
+  left: 100px;
+  opacity: .5;
+  top: 18px;
+  z-index:33;
+  padding:0;
+  margin:0;
+
+
+}
+#navigation-page li img{
+  height: 30px;
+  display:list-item;
+  padding:0;
+  margin:0;
+}
+
+
+/*
+header {
+    position: fixed;
+    z-index:10;
+    display: block;
+    width: 100%;
+    top: 0;
+    background: white;
+}
+
+.leader{
+
+}
+
+p{padding-left: 90px;
+padding-right: 90px;}
+
+h1 {
+    color: navy;
+    margin-left: 20px;
+    font-family: 'Bungee Shade', cursive;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Petit Formal Script', cursive;
+
+}
+
+h2 {
+  font-family: 'Archivo Black', sans-serif;
+  font-family: 'Lato', sans-serif;
+  margin-top: 0px;
+  font-size:1.1em;
+  color:blue;
+  text-decoration: none;
+
+}
+
+h3 {
+  font-family: 'Archivo Black', sans-serif;
+  font-family: 'Dosis', sans-serif;
+  font-family: 'Petit Formal Script', cursive;
+  font-size:25px;
+  margin-top: 30px;
+  margin-bottom:10px;
+  color : #ef1a6f;
+
+}
+
+#first{
+  font-family: 'Archivo Black', sans-serif;
+  font-family: 'Dosis', sans-serif;
+  font-family: 'Petit Formal Script', cursive;
+  font-size:25px;
+  margin-top: 0px;
+  margin-bottom:10px;
+}
+
+header nav {
+  max-width : 625px;
+  margin : 0 auto;
+}
+header nav a {
+  display: inline-block;
+  margin: 23px 13px 23px 13px ;
+
+}
+
+.menu {
+  font-family: 'Lato', sans-serif;
+  font-size:1.2em;
+  color:blue;
+  text-decoration: none;
+}
+
+body {
+  min-width: 550px;      /* 2x LC width + RC width */
+}
+
+/*
+#container {
+  padding-left: 200px;
+  padding-right: 150px;
+}
+#container .column {
+  position: relative;
+  float: left;
+}
+#center {
+  width: 100%;
+
+
+}
+#left {
+  width: 200px;
+  right: 200px;
+  margin-left: -100%;
+  padding-left:20px;
+}
+#right {
+  width: 150px;
+  margin-right: -150px;
+}
+#footer {
+  clear: both;
+}
+
+* html #left {
+  left: 150px;
+}
+
+
+
+#container {
+  display:flex;
+  background: white;
+}
+
+
+
+
+
+
+.text-img {
+font-size: 3.75rem;
+padding-top: 200px;
+color: white;
+text-align: center;
+font-weight: 700;
+margin-top:0;
+}
+
+.text-img h1{
+  position:absolute;
+  top:50%;
+  transform: translateY(50%);
+
+}
+
+
+#footer {
+  width:100%;
+  background: #ffd400;
+  padding:20px 0px;
+}
+
+#form {
+  max-width: 1000px;
+  padding-left:200px;
+  padding-right: 200px;
+  align-content: center;
+  margin:0px;
+}
+
+---------FOOTER----------
+
+
+
+#page-wrap {
+	width: 660px;
+	background: white;
+	padding: 20px 50px 20px 50px;
+	margin: 20px auto;
+	min-height: 500px;
+	height: auto !important;
+	height: 500px;
+}
+
+#contact-area {
+	width: 600px;
+	margin-top: 25px;
+}
+
+#contact-area input, #contact-area textarea {
+	padding: 5px;
+	width: 471px;
+	font-family: Helvetica, sans-serif;
+	font-size: 1.4em;
+	margin: 0px 0px 10px 0px;
+	border: 0px ;
+}
+
+#contact-area textarea {
+	height: 90px;
+
+}
+
+#contact-area textarea:focus, #contact-area input:focus {
+	border: 2px solid #900;
+}
+
+#contact-area input.submit-button {
+	width: 100px;
+	float: right;
+  background: blue;
+  color:white;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Petit Formal Script', cursive;
+}
+
+#contact-area input.submit-button:hover {
+	width: 100px;
+	float: right;
+  background: white;
+  color:blue;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Petit Formal Script', cursive;
+}
+
+label {
+	float: left;
+	text-align: right;
+	margin-right: 15px;
+	width: 100px;
+	padding-top: 5px;
+	font-size: 1.4em;
+  font-family: 'Lato', sans-serif;
+}
+
+
+
+#footer-menu nav a{
+  display: inline-block;
+  margin: 23px 13px 23px 13px ;
+  padding : 7px;
+  color:blue;
+  background: white;
+  text-decoration:none;
+
+}
+
+.picto-img path{
+  color:blue;
+  fill: blue;
+}
+
+.picto-img{
+  padding : 20px 100px;
+}
+
+.adventure-item {
+  padding : 20px 100px;
+}
+
+.adventure {
+  background: #ef1a6f;
+  padding:5px;
+}
+
+.adventure h3 {
+  color:black;
+}
+
+.adventure ul{
+
+  width: 100%;
+  display: flex;
+}

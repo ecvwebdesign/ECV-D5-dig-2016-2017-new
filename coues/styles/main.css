@@ -1,0 +1,220 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#navigation-page {
+  position: absolute;
+  left: 100px;
+  opacity: 1;
+  top: 18px;
+  text-decoration: none;
+}
+#navigation-page li img{
+  height: 30px;
+
+  display:list-item;
+  text-align: -webkit-match-parent;
+
+}
+
+body {
+   background: #f1f1f1;
+   font-family: 'Merriweather', sans-serif;
+}
+
+/* HEADER */
+header{
+
+    left: 0;
+    right: 0;
+    height: 100px;
+    line-height: 100px;
+    background-color: black;
+}
+
+/* mon image */
+.bg-img {
+ background-image: url(../images/agence.jpg);
+ background-size: cover;
+ width: 100%;
+ height: 85vh;
+ overflow : hidden;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    font-size: 35px;
+   color: white;
+   margin-left: 20px;
+}
+
+
+h2 {
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    font-size: 25px;
+   color: grey;
+   padding: 50px;
+}
+
+
+
+
+.txt-img h1 {
+   font-size: 3rem;
+   color: white;
+   position : absolute;
+   text-align: center;
+
+  }
+
+
+/* mon menu */
+nav {
+  text-align: center;
+  max-width : 600px;
+  margin : 0 auto;
+  font-family: 'Roboto Slab', serif;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+}
+
+
+aside h2 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 25px;
+  color: #5e5d5e;
+   margin: 40px;
+   padding-bottom: 40px;
+}
+
+
+
+h3 {
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 20px;
+  color: black;
+   margin-left: 20px;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  color: #5e5d5e;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+section {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.presentation p {
+  max-width: 640px;
+}
+
+.presentation,
+.fields  {
+  background-color: #fff;
+}
+
+.skills,
+.fields {
+  display: flex;
+  flex-direction: column;
+}
+
+.skills-img,
+.fields-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 900px;
+}
+
+.skills-img div,
+.fields-img div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+footer {
+  background-color: grey;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  }
+
+
+
+
+
+form {
+  width: 400px;
+  background-color: grey;
+}
+
+
+    input, textarea {
+       border:0; outline:0;
+       padding: 1em;
+       display: block;
+       width: 100%;
+       margin-top: 1em;
+       font-family: 'Merriweather', sans-serif;
+
+       resize: none;
+    }
+
+
+/* mon bouton que je n'arrive pas à styler */
+    #input-submit {
+
+      background-color: #efdbd7;
+      border-radius: 15px;
+      border: 2px solid #fbe0f0;
+      box-shadow: #784972 0px 0px 10px;
+      color: #0f0505;
+      display: inline-block;
+      font-family: Helvetica;
+      font-size: 1em;
+      margin-top: 25px;
+      padding: 5px;
+      text-decoration: none;
+      transition: all 0.5s ease;
+    }
+      #input-submit:hover {
+      background-color: #ffffff;
+      color: #fed7f5;
+      padding: 10px;
+    }
+
+  textarea {
+      height: 26px;
+  }

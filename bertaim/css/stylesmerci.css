@@ -1,0 +1,47 @@
+
+
+#thanks{
+
+  width: 500px;
+  margin: 0 auto 0 auto;
+  text-align: center;
+  margin-top: 20%;
+}
+
+
+h1{
+  margin-bottom: 0;
+  font-family: 'Raleway';
+  font-size: 100px;
+
+}
+
+h2{
+  margin-top: 0;
+  font-family: 'Raleway';
+  font-size: 25px;
+  color: #c84c1e;
+}
+
+.back-link {
+  background: #474747;
+  background-image: -webkit-linear-gradient(top, #474747, #000000);
+  background-image: -moz-linear-gradient(top, #474747, #000000);
+  background-image: -ms-linear-gradient(top, #474747, #000000);
+  background-image: -o-linear-gradient(top, #474747, #000000);
+  background-image: linear-gradient(to bottom, #474747, #000000);
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;
+  font-family: 'Raleway';
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.back-link:hover {
+  background: #c84c1e;
+  text-decoration: none;
+}
