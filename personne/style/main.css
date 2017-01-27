@@ -13,6 +13,8 @@ h1{
 
 }
 h2{
+  color:#4e4e4e;
+  font-size: 45px;
   text-align: center;
 font-family: 'Montserrat', sans-serif;
 font-weight: 400;
@@ -21,7 +23,8 @@ font-weight: 400;
 
 h3{
 font-family: 'Lato', sans-serif;
-font-size: 40px;
+font-size: 25px;
+color: #4e4e4e;
 text-align: center;
 
 }
@@ -148,7 +151,7 @@ nav{
   right: 0;
   bottom: 0;
   left: 0;
-  background-image: linear-gradient(to top, #0033ff, #fff);
+  background-image: linear-gradient(to bottom, #0033ff, #910091);
   opacity: .8;
 }
 
@@ -196,9 +199,11 @@ section{
 
 .About{
   text-align: center;
-  background:rgb(245, 245, 245);
+
 
 }
+
+.About p {width:500px;margin: auto;}
 
 .About h1{
   font-size: 40px;
@@ -216,11 +221,7 @@ color: #4e4e4e;
 
 }
 
-.skills-area h2 {
-  z-index: 2;
-color: #000;
-text-align: center;
-}
+
 
 /*.skills-area {
   height: 100vh;
@@ -265,8 +266,8 @@ text-align: center;
 /*section adventure*/
 
 .fields {
-    background:rgb(245, 245, 245);
-    padding-bottom: 30px;
+
+padding-bottom: 30px;
 
 }
 
@@ -286,15 +287,12 @@ text-align: center;
 }
 
 .fields-img div h3 {
+  text-transform: uppercase;
   font-size: 21px;
   font-weight: 300;
   margin-top: 25px;
 }
 
-.fields h2 {
-  color: #4e4e4e;
-  z-index: 2;
-}
 
 .fields h3 {
   text-align: center;
@@ -323,19 +321,19 @@ text-align: center;
 }
 
 #contact-area{  padding: 20px;
-background-image: linear-gradient(to top, #0033ff, #00ffec);}
+background-image: linear-gradient(to top, #0033ff, #910091);}
 
 #contact-area form {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #fff;
-  padding: 20px;
+  color:#4e4e4e;
+  padding: 40px 15px;
 
-
-
-}
+  margin: auto;
+  width: 300px;
+background-color: #fff;}
 
 .contact .form-section {
   margin: auto;
@@ -354,25 +352,22 @@ justify-content: space-around;
 
 #contact-area input, #contact-area textarea {
     padding: 5px;
-    width: 300px;
     font-family: 'Lato', sans-serif;
     font-size: 1.4em;
     margin: 0px 0px 10px 0px;
     border: 2px;
-
+    margin:auto;
     border-radius: 20px;
-    color: #000;
+    background-color:#e9ebee;
+width: 280px;
     transition: ease 0.5s;
 }
 
 label {
   font-family: 'Lato', sans-serif;
-
-
     width: 280px;
     padding-bottom: 5px;
     font-size: 16px;
-
     opacity: .7;
     letter-spacing: .5px;
 }
@@ -392,9 +387,23 @@ label {
     transition: ease 0.5s;
     width: 100px;
     float: right;
-    color: #000;
+    background-color:#fff;
+    color:  #0033ff;
+    border: 2px solid #0033ff;
+        MARGIN-TOP: 15px;
+
 }
 
+#contact-area input.submit-button:hover {
+    transition: ease 0.5s;
+    width: 100px;
+    float: right;
+    color:#fff;
+    background-color: #0033ff;
+}
+
+
+#contact-area h2{color:#fff;}
 
 input:focus,
 select:focus,
