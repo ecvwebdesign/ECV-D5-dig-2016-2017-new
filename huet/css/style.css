@@ -447,6 +447,21 @@ b i:last-child {
     animation: finger 2s infinite;
 }
 
+#navigation-page {
+  position: absolute;
+  left: 100px;
+  opacity: .5;
+  top: 18px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+#navigation-page li img{
+  height: 30px;
+}
+
 @-webkit-keyframes intro {
     0% {
         opacity: 0;
