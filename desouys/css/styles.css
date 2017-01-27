@@ -257,7 +257,7 @@ nav ul li a {
 }
 .skills-img div h3 {
   font-family: "Gilroy", sans-serif;
-  font-style: italic;
+  font-style: none;
   color: #58627C;
   font-size: 21px;
   font-weight: 300;
@@ -272,7 +272,7 @@ nav ul li a {
 
 .fields {
   height: 100vh;
-  background-color: #F7F7F7;
+  background-color: #FFFFFF;
 }
 
 .fields .fields-img {
@@ -291,7 +291,7 @@ nav ul li a {
 }
 .fields-img div h3 {
   font-family: "Gilroy", sans-serif;
-  font-style: italic;
+  font-style: none;
   color: #58627C;
   font-size: 21px;
   font-weight: 300;
@@ -309,7 +309,7 @@ nav ul li a {
 
 .fields h3 {
   text-align: center;
-  color: white;
+  color: #58627C;
   font-weight: 100;
   opacity: .7;
   margin-top: 0;
@@ -330,7 +330,7 @@ nav ul li a {
 .contact h2 {
   z-index: 2;
   font-size: 64px;
-  color: #5AFF95;
+  color: #58627c;
   padding-top: 100px;
   text-align: center;
   margin: 0;
@@ -339,7 +339,7 @@ nav ul li a {
 
 #page-wrap {
 	width: 660px;
-	background-color: #5AFF95;;
+	background-color: #9A69FF;;
 	padding: 20px 50px 20px 50px;
 	margin: 20px auto;
 	min-height: 500px;
