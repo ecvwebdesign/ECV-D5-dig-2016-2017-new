@@ -5,6 +5,20 @@ body {
 }
 
 #navigation-page {
+ position: absolute;
+ left: 100px;
+ opacity: .5;
+ top : 18px;
+ list-style: none;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+#navigation-page li img{
+ height: 30px;
+}
+
+/*#navigation-page {
   position: absolute;
   left: 100px;
   opacity: 1;
@@ -15,7 +29,7 @@ body {
   height: 30px;
 
   display:list-item;
-  text-align: -webkit-match-parent;
+  text-align: -webkit-match-parent;*/
 
 }
 
@@ -44,6 +58,7 @@ header{
  display: flex;
  justify-content: center;
  align-items: center;
+ flex-direction: column;
 }
 
 
