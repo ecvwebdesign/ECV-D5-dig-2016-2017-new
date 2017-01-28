@@ -38,7 +38,7 @@ p{
 header {
   width: 100%;
   height:65px ;
-  background-color: #fff;
+  color: #000;
   position: fixed;
   z-index: 3;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
@@ -51,6 +51,7 @@ nav {
   height: 65px;
   margin: auto;
   display: flex;
+
   align-items: center;
 }
 
@@ -66,68 +67,34 @@ nav ul {
 
 nav ul li a {
   font-family: 'Work Sans', sans-serif;
-  color: #000;
+  color:#fff;
   text-decoration: none;
   font-size: 20px;
   font-weight: 200;
-  padding-left: 30px;
+  padding-left: 20px;
   text-transform: uppercase;
 }
 
 nav a:hover{
-  color: #0033FF;
+  font-weight: 600;
+}
+
+#navigation-page {
+ position: absolute;
+ left: 10px;
+ opacity: .5;
+ top: 18px;
+ list-style: none;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ color: #FFF;
+}
+#navigation-page li img{
+ height: 30px;
 }
 
 
-
-
- /*header
-header{
-  width: 100%;
-  position: fixed;
-  z-index: 10;
-  background: #FFF;
-}
-
-
-/* naviguation
-nav{
-  padding: 30px;
-}
-
-.navigation a{
-  font-family: 'Work Sans', sans-serif;
-  color: #000;
-  text-decoration: none;
-  font-size: 20px;
-  font-weight: 700;
-  padding-left: 30px;
-
-}
-
-/*image cover
-
-.hero{
-  background: url("/Users/Anna/Desktop/M2/Web-Ian/ECV-D5-dig-2016-2017/personne/Exo-2/assets/beach.jpg");
-  background-size: cover;
-  min-height: 80vh;
-  position: relative;
-}
-
-
-.hero h1{
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-
-  text-align: center;
-  width: 100%;
-  display: block;
-  margin: auto;
-
-
-}
-*/
 
 /*********** BG-IMG HOME ***********/
 
@@ -209,6 +176,9 @@ section{
   font-size: 40px;
   font-weight: 200;
   color: #4e4e4e;
+-vendor-animation-duration: 10s;
+    -vendor-animation-delay: 2s;
+
 
 }
 
@@ -257,7 +227,7 @@ color: #4e4e4e;
 
 
 #skills{
-      box-shadow: 0px 15px 20px 2px #888888;
+        box-shadow: 0px 16px 15px 0px rgba(46, 46, 46, 0.1);
 }
 
 /*********** FIELDS ***********/
@@ -320,7 +290,8 @@ padding-bottom: 30px;
   height: 200px;
 }
 
-#contact-area{  padding: 20px;
+#contact-area{
+  padding: 30px 10px;
 background-image: linear-gradient(to top, #0033ff, #910091);}
 
 #contact-area form {
@@ -329,8 +300,8 @@ background-image: linear-gradient(to top, #0033ff, #910091);}
     justify-content: center;
     align-items: center;
   color:#4e4e4e;
-  padding: 40px 15px;
-
+  padding: 10px 20px;
+box-shadow: 0px 4px 20px 5px rgba(46, 46, 46, 0.2);
   margin: auto;
   width: 300px;
 background-color: #fff;}
@@ -412,4 +383,18 @@ button:focus {
     outline: none;
 }
 
-.
+
+.line {
+
+    margin: auto;
+    width: 50px;
+    border-bottom: 3px solid #0033ff;
+}
+
+
+
+
+.midnightHeader.default {background-color:#0033ff; color:white;}
+
+.midnightHeader.white {background-color:#fff;color: black;}
+.midnightHeader.white  a{background-color:#fff;color: #0033ff;}

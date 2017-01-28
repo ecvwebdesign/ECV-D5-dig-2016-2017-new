@@ -1,0 +1,101 @@
+body{
+  background: #FFF;
+  margin: inherit;
+
+}
+
+
+/* fonts */
+
+h1{
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+
+}
+h2{
+  color:#4e4e4e;
+  font-size: 45px;
+  text-align: center;
+font-family: 'Montserrat', sans-serif;
+font-weight: 400;
+
+}
+
+h3{
+font-family: 'Lato', sans-serif;
+font-size: 25px;
+color: #4e4e4e;
+text-align: center;
+
+}
+
+p{
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+
+
+
+/*********** BG-IMG HOME ***********/
+
+.bg-img {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(to bottom, #0033ff, #910091);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+
+.bg-img img,
+.bg-img h1,
+.bg-img p,
+.bg-img a{
+  z-index: 2;
+}
+
+.bg-img img {
+  margin-top: 100px;
+  height: 450px;
+}
+
+.bg-img h1,
+.bg-img p {
+  color: #FFF;
+}
+
+.bg-img h1 {
+  font-size: 40px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.bg-img p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #FFF;
+  margin: 0;
+  opacity: 0.5;
+}
+
+
+
+.retour, .retour a{ color: #FFF;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+z-index:4px;
+border: 3px solid #FFF;
+border-radius: 3px;
+width: 100px;
+height: 40px;
+
+
+}
