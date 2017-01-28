@@ -13,6 +13,8 @@ h1{
 
 }
 h2{
+  color:#4e4e4e;
+  font-size: 45px;
   text-align: center;
 font-family: 'Montserrat', sans-serif;
 font-weight: 400;
@@ -21,7 +23,8 @@ font-weight: 400;
 
 h3{
 font-family: 'Lato', sans-serif;
-font-size: 40px;
+font-size: 25px;
+color: #4e4e4e;
 text-align: center;
 
 }
@@ -35,7 +38,7 @@ p{
 header {
   width: 100%;
   height:65px ;
-  background-color: #fff;
+  color: #000;
   position: fixed;
   z-index: 3;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
@@ -48,6 +51,7 @@ nav {
   height: 65px;
   margin: auto;
   display: flex;
+
   align-items: center;
 }
 
@@ -63,68 +67,34 @@ nav ul {
 
 nav ul li a {
   font-family: 'Work Sans', sans-serif;
-  color: #000;
+  color:#fff;
   text-decoration: none;
   font-size: 20px;
   font-weight: 200;
-  padding-left: 30px;
+  padding-left: 20px;
   text-transform: uppercase;
 }
 
 nav a:hover{
-  color: #0033FF;
+  font-weight: 600;
+}
+
+#navigation-page {
+ position: absolute;
+ left: 10px;
+ opacity: .5;
+ top: 18px;
+ list-style: none;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ color: #FFF;
+}
+#navigation-page li img{
+ height: 30px;
 }
 
 
-
-
- /*header
-header{
-  width: 100%;
-  position: fixed;
-  z-index: 10;
-  background: #FFF;
-}
-
-
-/* naviguation
-nav{
-  padding: 30px;
-}
-
-.navigation a{
-  font-family: 'Work Sans', sans-serif;
-  color: #000;
-  text-decoration: none;
-  font-size: 20px;
-  font-weight: 700;
-  padding-left: 30px;
-
-}
-
-/*image cover
-
-.hero{
-  background: url("/Users/Anna/Desktop/M2/Web-Ian/ECV-D5-dig-2016-2017/personne/Exo-2/assets/beach.jpg");
-  background-size: cover;
-  min-height: 80vh;
-  position: relative;
-}
-
-
-.hero h1{
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-
-  text-align: center;
-  width: 100%;
-  display: block;
-  margin: auto;
-
-
-}
-*/
 
 /*********** BG-IMG HOME ***********/
 
@@ -148,7 +118,7 @@ nav{
   right: 0;
   bottom: 0;
   left: 0;
-  background-image: linear-gradient(to top, #0033ff, #fff);
+  background-image: linear-gradient(to bottom, #0033ff, #910091);
   opacity: .8;
 }
 
@@ -196,14 +166,19 @@ section{
 
 .About{
   text-align: center;
-  background:rgb(245, 245, 245);
+
 
 }
+
+.About p {width:500px;margin: auto;}
 
 .About h1{
   font-size: 40px;
   font-weight: 200;
   color: #4e4e4e;
+-vendor-animation-duration: 10s;
+    -vendor-animation-delay: 2s;
+
 
 }
 
@@ -216,11 +191,7 @@ color: #4e4e4e;
 
 }
 
-.skills-area h2 {
-  z-index: 2;
-color: #000;
-text-align: center;
-}
+
 
 /*.skills-area {
   height: 100vh;
@@ -256,7 +227,7 @@ text-align: center;
 
 
 #skills{
-      box-shadow: 0px 15px 20px 2px #888888;
+        box-shadow: 0px 16px 15px 0px rgba(46, 46, 46, 0.1);
 }
 
 /*********** FIELDS ***********/
@@ -265,8 +236,8 @@ text-align: center;
 /*section adventure*/
 
 .fields {
-    background:rgb(245, 245, 245);
-    padding-bottom: 30px;
+
+padding-bottom: 30px;
 
 }
 
@@ -286,15 +257,12 @@ text-align: center;
 }
 
 .fields-img div h3 {
+  text-transform: uppercase;
   font-size: 21px;
   font-weight: 300;
   margin-top: 25px;
 }
 
-.fields h2 {
-  color: #4e4e4e;
-  z-index: 2;
-}
 
 .fields h3 {
   text-align: center;
@@ -322,20 +290,21 @@ text-align: center;
   height: 200px;
 }
 
-#contact-area{  padding: 20px;
-background-image: linear-gradient(to top, #0033ff, #00ffec);}
+#contact-area{
+  padding: 30px 10px;
+background-image: linear-gradient(to top, #0033ff, #910091);}
 
 #contact-area form {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #fff;
-  padding: 20px;
-
-
-
-}
+  color:#4e4e4e;
+  padding: 10px 20px;
+box-shadow: 0px 4px 20px 5px rgba(46, 46, 46, 0.2);
+  margin: auto;
+  width: 300px;
+background-color: #fff;}
 
 .contact .form-section {
   margin: auto;
@@ -354,25 +323,22 @@ justify-content: space-around;
 
 #contact-area input, #contact-area textarea {
     padding: 5px;
-    width: 300px;
     font-family: 'Lato', sans-serif;
     font-size: 1.4em;
     margin: 0px 0px 10px 0px;
     border: 2px;
-
+    margin:auto;
     border-radius: 20px;
-    color: #000;
+    background-color:#e9ebee;
+width: 280px;
     transition: ease 0.5s;
 }
 
 label {
   font-family: 'Lato', sans-serif;
-
-
     width: 280px;
     padding-bottom: 5px;
     font-size: 16px;
-
     opacity: .7;
     letter-spacing: .5px;
 }
@@ -392,9 +358,23 @@ label {
     transition: ease 0.5s;
     width: 100px;
     float: right;
-    color: #000;
+    background-color:#fff;
+    color:  #0033ff;
+    border: 2px solid #0033ff;
+        MARGIN-TOP: 15px;
+
 }
 
+#contact-area input.submit-button:hover {
+    transition: ease 0.5s;
+    width: 100px;
+    float: right;
+    color:#fff;
+    background-color: #0033ff;
+}
+
+
+#contact-area h2{color:#fff;}
 
 input:focus,
 select:focus,
@@ -403,4 +383,18 @@ button:focus {
     outline: none;
 }
 
-.
+
+.line {
+
+    margin: auto;
+    width: 50px;
+    border-bottom: 3px solid #0033ff;
+}
+
+
+
+
+.midnightHeader.default {background-color:#0033ff; color:white;}
+
+.midnightHeader.white {background-color:#fff;color: black;}
+.midnightHeader.white  a{background-color:#fff;color: #0033ff;}
