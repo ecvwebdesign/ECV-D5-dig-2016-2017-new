@@ -74,6 +74,8 @@ p{
 .bg-img h1 {
   font-size: 40px;
   font-family: 'Montserrat', sans-serif;
+  -vendor-animation-duration: 10s;
+  -vendor-animation-delay: 20s;
 
 }
 
