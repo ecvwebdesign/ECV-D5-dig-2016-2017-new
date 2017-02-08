@@ -449,17 +449,27 @@ b i:last-child {
 
 #navigation-page {
   position: absolute;
-  left: 100px;
+  left: 50%;
   opacity: .5;
-  top: 18px;
+  top: 25px;
   list-style: none;
   display: flex;
   justify-content: center;
   align-items: center;
-
+  margin-left: 0;
+  padding-left: 0;
 }
+
+
 #navigation-page li img{
   height: 30px;
+}
+
+input[type='submit']
+{
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
 }
 
 @-webkit-keyframes intro {
@@ -802,62 +812,69 @@ b i:last-child {
 }
 
 .contact h2 {
+  font-weight: 700;
+  padding-top: 100px;
   z-index: 2;
   font-size: 64px;
-  color: #fff;
+  color: black;
   padding-top: 100px;
   text-align: center;
-  margin: 0;
+  margin-bottom: 0;
 
 }
 
 #page-wrap {
-	width: 660px;
+	width: 100%;
 	background: white;
-	padding: 20px 50px 20px 50px;
-	margin: 20px auto;
-	min-height: 500px;
-	height: auto !important;
-	height: 500px;
+  padding: 0 20px;
+  max-width: 500px;
+  margin: 50px auto;
+	/*padding: 20px 50px 20px 50px;
+	margin: 20px auto;*/
+	/*min-height: 500px;*/
+	/*height: auto !important;
+	height: 500px;*/
 }
 
-#contact-area {
-	width: 600px;
-	margin-top: 25px;
+form {
+  display: flex;
+  flex-direction: column;
 }
 
-#contact-area input, #contact-area textarea {
+#page-wrap input, #page-wrap textarea {
 	padding: 5px;
-	width: 471px;
+	width: 100%;
 	font-family: Helvetica, sans-serif;
 	font-size: 1.4em;
 	margin: 0px 0px 10px 0px;
 	border: 2px solid #ccc;
 }
 
-#contact-area textarea {
+#page-wrap textarea {
 	height: 90px;
 }
 
-#contact-area textarea:focus, #contact-area input:focus {
+#page-wrap textarea:focus, #page-wrap input:focus {
 	border: 2px solid #900;
 }
 
-#contact-area input.submit-button {
+#page-wrap input.submit-button {
 	width: 100px;
 	float: right;
   transition: 1s ease;
 
 }
 
-#contact-area input.submit-button:hover{
+#page-wrap input.submit-button:hover{
   background-color: blue;
   transition: 1s ease;
 }
 
 label {
 	float: left;
-	text-align: right;
+	text-align: left;
+  margin-top: 0;
+  margin-bottom: 0;
 	margin-right: 15px;
 	width: 100px;
 	padding-top: 5px;
@@ -872,6 +889,36 @@ label {
     .col-md-6 h3 {
         margin-top: 30px;
     }
+    #prez {
+      height: 100%;
+    }
+    .text-presentation{
+      flex-direction: column;
+      align-items: center;
+      height: 100%;
+      width: 100%;
+    }
+    .text-presentation p {
+      margin-bottom: 50px;
+      width: 100%;
+      max-width: 425px;
+      padding: 0 40px;
+    }
+
+}
+@media (max-width: 850px) {
+  #skills,
+  #fields {
+    height: 100%;
+  }
+  .fields-img,
+  .skills-img {
+    flex-direction: column;
+  }
+  .fields-img div,
+  .skills-img div {
+    margin-top: 50px;
+  }
 }
 
 @media only screen and (max-width: 670px) {
@@ -907,6 +954,9 @@ label {
     }
     .main-container {
         padding: 50px 0;
+    }
+    #navigation-page {
+      left: 35%;
     }
 }
 
